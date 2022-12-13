@@ -1,0 +1,576 @@
+[15:46:14][000028][MPI] *** info: Plugin loaded successfully
+[15:46:14][000000][MPI] *** info: Plugin loaded successfully
+[15:46:14][000007][MPI] *** info: Plugin loaded successfully
+[15:46:14][000001][MPI] *** info: Plugin loaded successfully
+[15:46:14][000010][MPI] *** info: Plugin loaded successfully
+[15:46:14][000004][MPI] *** info: Plugin loaded successfully
+[15:46:14][000005][MPI] *** info: Plugin loaded successfully
+[15:46:14][000018][MPI] *** info: Plugin loaded successfully
+[15:46:14][000019][MPI] *** info: Plugin loaded successfully
+[15:46:14][000027][MPI] *** info: Plugin loaded successfully
+[15:46:14][000026][MPI] *** info: Plugin loaded successfully
+[15:46:14][000012][MPI] *** info: Plugin loaded successfully
+[15:46:14][000015][MPI] *** info: Plugin loaded successfully
+[15:46:14][000030][MPI] *** info: Plugin loaded successfully
+[15:46:14][000031][MPI] *** info: Plugin loaded successfully
+[15:46:14][000016][MPI] *** info: Plugin loaded successfully
+[15:46:14][000008][MPI] *** info: Plugin loaded successfully
+[15:46:14][000021][MPI] *** info: Plugin loaded successfully
+[15:46:14][000017][MPI] *** info: Plugin loaded successfully
+[15:46:14][000009][MPI] *** info: Plugin loaded successfully
+[15:46:14][000022][MPI] *** info: Plugin loaded successfully
+[15:46:14][000023][MPI] *** info: Plugin loaded successfully
+[15:46:14][000020][MPI] *** info: Plugin loaded successfully
+[15:46:14][000024][MPI] *** info: Plugin loaded successfully
+[15:46:14][000002][MPI] *** info: Plugin loaded successfully
+[15:46:14][000029][MPI] *** info: Plugin loaded successfully
+[15:46:14][000006][MPI] *** info: Plugin loaded successfully
+[15:46:14][000011][MPI] *** info: Plugin loaded successfully
+[15:46:14][000014][MPI] *** info: Plugin loaded successfully
+[15:46:14][000013][MPI] *** info: Plugin loaded successfully
+[15:46:14][000025][MPI] *** info: Plugin loaded successfully
+[15:46:14][000003][MPI] *** info: Plugin loaded successfully
+[15:46:14][000000][PDI] *** info: Initialization successful
+[15:46:14][000028][PDI] *** info: Initialization successful
+[15:46:14][000029][PDI] *** info: Initialization successful
+[15:46:14][000001][PDI] *** info: Initialization successful
+[15:46:14][000018][PDI] *** info: Initialization successful
+[15:46:14][000019][PDI] *** info: Initialization successful
+[15:46:14][000006][PDI] *** info: Initialization successful
+[15:46:14][000007][PDI] *** info: Initialization successful
+[15:46:14][000020][PDI] *** info: Initialization successful
+[15:46:14][000014][PDI] *** info: Initialization successful
+[15:46:14][000026][PDI] *** info: Initialization successful
+[15:46:14][000021][PDI] *** info: Initialization successful
+[15:46:14][000012][PDI] *** info: Initialization successful
+[15:46:14][000015][PDI] *** info: Initialization successful
+[15:46:14][000013][PDI] *** info: Initialization successful
+[15:46:14][000016][PDI] *** info: Initialization successful
+[15:46:14][000027][PDI] *** info: Initialization successful
+[15:46:14][000017][PDI] *** info: Initialization successful
+[15:46:14][000024][PDI] *** info: Initialization successful
+[15:46:14][000030][PDI] *** info: Initialization successful
+[15:46:14][000025][PDI] *** info: Initialization successful
+[15:46:14][000022][PDI] *** info: Initialization successful
+[15:46:14][000023][PDI] *** info: Initialization successful
+[15:46:14][000031][PDI] *** info: Initialization successful
+[15:46:14][000008][PDI] *** info: Initialization successful
+[15:46:14][000009][PDI] *** info: Initialization successful
+[15:46:14][000004][PDI] *** info: Initialization successful
+[15:46:14][000005][PDI] *** info: Initialization successful
+[15:46:14][000010][PDI] *** info: Initialization successful
+[15:46:14][000011][PDI] *** info: Initialization successful
+[15:46:14][000002][PDI] *** info: Initialization successful
+[15:46:14][000003][PDI] *** info: Initialization successful
+scatter et profiling  :  0.5068466663360596 secondes
+scatter et profiling  :  0.5141363143920898 secondes
+scatter et profiling  :  0.5493948459625244 secondes
+scatter et profiling  :  0.6180582046508789 secondes
+scatter et profiling  :  0.6320474147796631 secondes
+scatter et profiling  :  0.6413815021514893 secondes
+scatter et profiling  :  0.6736574172973633 secondes
+scatter et profiling  :  0.7009220123291016 secondes
+scatter et profiling  :  0.7125029563903809 secondes
+scatter et profiling  :  0.7189497947692871 secondes
+scatter et profiling  :  0.7229790687561035 secondes
+scatter et profiling  :  0.7256655693054199 secondes
+scatter et profiling  :  0.7345097064971924 secondes
+scatter et profiling  :  0.738039493560791 secondes
+scatter et profiling  :  0.7510495185852051 secondes
+scatter et profiling  :  0.8011791706085205 secondes
+scatter et profiling  :  0.8011903762817383 secondes
+scatter et profiling  :  0.8028767108917236 secondes
+scatter et profiling  :  0.8171272277832031 secondes
+scatter et profiling  :  0.8174777030944824 secondes
+scatter et profiling  :  0.833275556564331 secondes
+scatter et profiling  :  0.8494672775268555 secondes
+scatter et profiling  :  0.8508951663970947 secondes
+scatter et profiling  :  0.8539094924926758 secondes
+scatter et profiling  :  0.8618803024291992 secondes
+scatter et profiling  :  0.8806984424591064 secondes
+scatter et profiling  :  0.8870828151702881 secondes
+scatter et profiling  :  0.9048926830291748 secondes
+scatter et profiling  :  0.9131720066070557 secondes
+scatter et profiling  :  0.9362637996673584 secondes
+scatter et profiling  :  0.9762513637542725 secondes
+scatter et profiling  :  0.9964509010314941 secondes
+scatter et profiling  :  0.44888806343078613 secondes
+scatter et profiling  :  0.4555230140686035 secondes
+scatter et profiling  :  0.49459290504455566 secondes
+scatter et profiling  :  0.5606763362884521 secondes
+scatter et profiling  :  0.5819346904754639 secondes
+scatter et profiling  :  0.6056959629058838 secondes
+scatter et profiling  :  0.6199545860290527 secondes
+scatter et profiling  :  0.6260321140289307 secondes
+scatter et profiling  :  0.6430139541625977 secondes
+scatter et profiling  :  0.6620423793792725 secondes
+scatter et profiling  :  0.6627919673919678 secondes
+scatter et profiling  :  0.6638028621673584 secondes
+scatter et profiling  :  0.6652536392211914 secondes
+scatter et profiling  :  0.674990177154541 secondes
+scatter et profiling  :  0.686439037322998 secondes
+scatter et profiling  :  0.7156002521514893 secondes
+scatter et profiling  :  0.7294962406158447 secondes
+scatter et profiling  :  0.7515323162078857 secondes
+scatter et profiling  :  0.7463362216949463 secondes
+scatter et profiling  :  0.7485172748565674 secondes
+scatter et profiling  :  0.761976957321167 secondes
+scatter et profiling  :  0.7849142551422119 secondes
+scatter et profiling  :  0.8113386631011963 secondes
+scatter et profiling  :  0.8173837661743164 secondes
+scatter et profiling  :  0.8250107765197754 secondes
+scatter et profiling  :  0.8395147323608398 secondes
+scatter et profiling  :  0.8384108543395996 secondes
+scatter et profiling  :  0.8524682521820068 secondes
+scatter et profiling  :  0.8612508773803711 secondes
+scatter et profiling  :  0.8819503784179688 secondes
+scatter et profiling  :  0.891594409942627 secondes
+scatter et profiling  :  0.9419541358947754 secondes
+scatter et profiling  :  0.44132041931152344 secondes
+scatter et profiling  :  0.47432804107666016 secondes
+scatter et profiling  :  0.47161412239074707 secondes
+scatter et profiling  :  0.5426876544952393 secondes
+scatter et profiling  :  0.5587234497070312 secondes
+scatter et profiling  :  0.6300392150878906 secondes
+scatter et profiling  :  0.6581666469573975 secondes
+scatter et profiling  :  0.6630761623382568 secondes
+scatter et profiling  :  0.6653413772583008 secondes
+scatter et profiling  :  0.6678376197814941 secondes
+scatter et profiling  :  0.6677958965301514 secondes
+scatter et profiling  :  0.6684362888336182 secondes
+scatter et profiling  :  0.6758372783660889 secondes
+scatter et profiling  :  0.6819651126861572 secondes
+scatter et profiling  :  0.6757917404174805 secondes
+scatter et profiling  :  0.6824090480804443 secondes
+scatter et profiling  :  0.7034790515899658 secondes
+scatter et profiling  :  0.7117600440979004 secondes
+scatter et profiling  :  0.7230353355407715 secondes
+scatter et profiling  :  0.7228074073791504 secondes
+scatter et profiling  :  0.7407197952270508 secondes
+scatter et profiling  :  0.7505238056182861 secondes
+scatter et profiling  :  0.787621259689331 secondes
+scatter et profiling  :  0.8038961887359619 secondes
+scatter et profiling  :  0.8083226680755615 secondes
+scatter et profiling  :  0.8109869956970215 secondes
+scatter et profiling  :  0.808199405670166 secondes
+scatter et profiling  :  0.821098804473877 secondes
+scatter et profiling  :  0.8218464851379395 secondes
+scatter et profiling  :  0.8569862842559814 secondes
+scatter et profiling  :  0.8690958023071289 secondes
+scatter et profiling  :  0.8910324573516846 secondes
+scatter et profiling  :  0.43512797355651855 secondes
+scatter et profiling  :  0.47063517570495605 secondes
+scatter et profiling  :  0.4712674617767334 secondes
+scatter et profiling  :  0.5744314193725586 secondes
+scatter et profiling  :  0.5761904716491699 secondes
+scatter et profiling  :  0.6108510494232178 secondes
+scatter et profiling  :  0.6136574745178223 secondes
+scatter et profiling  :  0.6147472858428955 secondes
+scatter et profiling  :  0.6195657253265381 secondes
+scatter et profiling  :  0.6276571750640869 secondes
+scatter et profiling  :  0.6392607688903809 secondes
+scatter et profiling  :  0.6442036628723145 secondes
+scatter et profiling  :  0.6784319877624512 secondes
+scatter et profiling  :  0.6819658279418945 secondes
+scatter et profiling  :  0.7004210948944092 secondes
+scatter et profiling  :  0.6943190097808838 secondes
+scatter et profiling  :  0.7009336948394775 secondes
+scatter et profiling  :  0.7102105617523193 secondes
+scatter et profiling  :  0.7137260437011719 secondes
+scatter et profiling  :  0.713364839553833 secondes
+scatter et profiling  :  0.7201149463653564 secondes
+scatter et profiling  :  0.7713284492492676 secondes
+scatter et profiling  :  0.7821297645568848 secondes
+scatter et profiling  :  0.7857646942138672 secondes
+scatter et profiling  :  0.7952616214752197 secondes
+scatter et profiling  :  0.7974886894226074 secondes
+scatter et profiling  :  0.8121757507324219 secondes
+scatter et profiling  :  0.8131420612335205 secondes
+scatter et profiling  :  0.8261339664459229 secondes
+scatter et profiling  :  0.8304462432861328 secondes
+scatter et profiling  :  0.8351101875305176 secondes
+scatter et profiling  :  0.8510839939117432 secondes
+scatter et profiling  :  0.435422420501709 secondes
+scatter et profiling  :  0.4430544376373291 secondes
+scatter et profiling  :  0.4712672233581543 secondes
+scatter et profiling  :  0.5498108863830566 secondes
+scatter et profiling  :  0.566969633102417 secondes
+scatter et profiling  :  0.6060068607330322 secondes
+scatter et profiling  :  0.6226303577423096 secondes
+scatter et profiling  :  0.6311089992523193 secondes
+scatter et profiling  :  0.6531262397766113 secondes
+scatter et profiling  :  0.6678996086120605 secondes
+scatter et profiling  :  0.6743714809417725 secondes
+scatter et profiling  :  0.6812446117401123 secondes
+scatter et profiling  :  0.6843574047088623 secondes
+scatter et profiling  :  0.6878917217254639 secondes
+scatter et profiling  :  0.6902916431427002 secondes
+scatter et profiling  :  0.696009635925293 secondes
+scatter et profiling  :  0.7269678115844727 secondes
+scatter et profiling  :  0.7304704189300537 secondes
+scatter et profiling  :  0.738753080368042 secondes
+scatter et profiling  :  0.7488398551940918 secondes
+scatter et profiling  :  0.7747068405151367 secondes
+scatter et profiling  :  0.7876901626586914 secondes
+scatter et profiling  :  0.8081119060516357 secondes
+scatter et profiling  :  0.8176569938659668 secondes
+scatter et profiling  :  0.8199918270111084 secondes
+scatter et profiling  :  0.8243465423583984 secondes
+scatter et profiling  :  0.8407418727874756 secondes
+scatter et profiling  :  0.8438942432403564 secondes
+scatter et profiling  :  0.8463728427886963 secondes
+scatter et profiling  :  0.884490966796875 secondes
+scatter et profiling  :  0.8989155292510986 secondes
+scatter et profiling  :  0.9080145359039307 secondes
+scatter et profiling  :  0.462937593460083 secondes
+scatter et profiling  :  0.47086548805236816 secondes
+scatter et profiling  :  0.5040676593780518 secondes
+scatter et profiling  :  0.5430827140808105 secondes
+scatter et profiling  :  0.5671687126159668 secondes
+scatter et profiling  :  0.5756933689117432 secondes
+scatter et profiling  :  0.5762195587158203 secondes
+scatter et profiling  :  0.586522102355957 secondes
+scatter et profiling  :  0.6098730564117432 secondes
+scatter et profiling  :  0.623145580291748 secondes
+scatter et profiling  :  0.6282837390899658 secondes
+scatter et profiling  :  0.6403603553771973 secondes
+scatter et profiling  :  0.6447784900665283 secondes
+scatter et profiling  :  0.652576208114624 secondes
+scatter et profiling  :  0.677009105682373 secondes
+scatter et profiling  :  0.7002770900726318 secondes
+scatter et profiling  :  0.70760178565979 secondes
+scatter et profiling  :  0.7079570293426514 secondes
+scatter et profiling  :  0.7128500938415527 secondes
+scatter et profiling  :  0.7264573574066162 secondes
+scatter et profiling  :  0.7292385101318359 secondes
+scatter et profiling  :  0.7715160846710205 secondes
+scatter et profiling  :  11.295708894729614 secondes
+scatter et profiling  :  11.306592226028442 secondes
+scatter et profiling  :  11.316766500473022 secondes
+scatter et profiling  :  11.34855580329895 secondes
+scatter et profiling  :  11.386703729629517 secondes
+scatter et profiling  :  11.415390014648438 secondes
+scatter et profiling  :  11.4370756149292 secondes
+scatter et profiling  :  11.450482845306396 secondes
+scatter et profiling  :  11.451241254806519 secondes
+scatter et profiling  :  11.457857370376587 secondes
+scatter et profiling  :  0.43671345710754395 secondes
+scatter et profiling  :  0.4531850814819336 secondes
+scatter et profiling  :  0.4773869514465332 secondes
+scatter et profiling  :  0.5003581047058105 secondes
+scatter et profiling  :  0.5677714347839355 secondes
+scatter et profiling  :  0.5815494060516357 secondes
+scatter et profiling  :  0.5965325832366943 secondes
+scatter et profiling  :  0.6049654483795166 secondes
+scatter et profiling  :  0.6063377857208252 secondes
+scatter et profiling  :  0.6300923824310303 secondes
+scatter et profiling  :  0.6343963146209717 secondes
+scatter et profiling  :  0.6449580192565918 secondes
+scatter et profiling  :  0.6497845649719238 secondes
+scatter et profiling  :  0.6587998867034912 secondes
+scatter et profiling  :  0.6660478115081787 secondes
+scatter et profiling  :  0.6805613040924072 secondes
+scatter et profiling  :  0.6847965717315674 secondes
+scatter et profiling  :  0.6947002410888672 secondes
+scatter et profiling  :  0.7050142288208008 secondes
+scatter et profiling  :  0.7305557727813721 secondes
+scatter et profiling  :  0.7393667697906494 secondes
+scatter et profiling  :  0.7457711696624756 secondes
+scatter et profiling  :  0.7638168334960938 secondes
+scatter et profiling  :  0.7743031978607178 secondes
+scatter et profiling  :  0.823204755783081 secondes
+scatter et profiling  :  0.8252420425415039 secondes
+scatter et profiling  :  7.367861747741699 secondes
+scatter et profiling  :  7.380377531051636 secondes
+scatter et profiling  :  7.4822304248809814 secondes
+scatter et profiling  :  7.512084484100342 secondes
+scatter et profiling  :  7.524374961853027 secondes
+scatter et profiling  :  7.527072906494141 secondes
+scatter et profiling  :  0.44103074073791504 secondes
+scatter et profiling  :  0.45230841636657715 secondes
+scatter et profiling  :  0.4644801616668701 secondes
+scatter et profiling  :  0.5462279319763184 secondes
+scatter et profiling  :  0.5729985237121582 secondes
+scatter et profiling  :  0.5947706699371338 secondes
+scatter et profiling  :  0.6393404006958008 secondes
+scatter et profiling  :  0.6380596160888672 secondes
+scatter et profiling  :  0.6749484539031982 secondes
+scatter et profiling  :  0.6745142936706543 secondes
+scatter et profiling  :  0.6781928539276123 secondes
+scatter et profiling  :  0.6786093711853027 secondes
+scatter et profiling  :  0.6844825744628906 secondes
+scatter et profiling  :  0.6826331615447998 secondes
+scatter et profiling  :  0.7290976047515869 secondes
+scatter et profiling  :  0.7367489337921143 secondes
+scatter et profiling  :  0.7406556606292725 secondes
+scatter et profiling  :  0.75799560546875 secondes
+scatter et profiling  :  0.7642567157745361 secondes
+scatter et profiling  :  0.7826881408691406 secondes
+scatter et profiling  :  0.7838497161865234 secondes
+scatter et profiling  :  0.7855889797210693 secondes
+scatter et profiling  :  0.8162841796875 secondes
+scatter et profiling  :  0.8223631381988525 secondes
+scatter et profiling  :  0.8248767852783203 secondes
+scatter et profiling  :  0.8264813423156738 secondes
+scatter et profiling  :  0.8375577926635742 secondes
+scatter et profiling  :  0.8464953899383545 secondes
+scatter et profiling  :  0.8592841625213623 secondes
+scatter et profiling  :  0.8805339336395264 secondes
+scatter et profiling  :  0.915973424911499 secondes
+scatter et profiling  :  0.9299430847167969 secondes
+scatter et profiling  :  0.439009428024292 secondes
+scatter et profiling  :  0.44127702713012695 secondes
+scatter et profiling  :  0.4436686038970947 secondes
+scatter et profiling  :  0.5028882026672363 secondes
+scatter et profiling  :  0.577296257019043 secondes
+scatter et profiling  :  0.5749368667602539 secondes
+scatter et profiling  :  0.5849907398223877 secondes
+scatter et profiling  :  0.6114964485168457 secondes
+scatter et profiling  :  0.6270852088928223 secondes
+scatter et profiling  :  0.6771221160888672 secondes
+scatter et profiling  :  0.6669285297393799 secondes
+scatter et profiling  :  0.6669282913208008 secondes
+scatter et profiling  :  0.6692893505096436 secondes
+scatter et profiling  :  0.6798932552337646 secondes
+scatter et profiling  :  0.7183456420898438 secondes
+scatter et profiling  :  0.7168567180633545 secondes
+scatter et profiling  :  0.7420437335968018 secondes
+scatter et profiling  :  0.7671079635620117 secondes
+scatter et profiling  :  0.7772688865661621 secondes
+scatter et profiling  :  0.7825391292572021 secondes
+scatter et profiling  :  0.7945873737335205 secondes
+scatter et profiling  :  0.8074884414672852 secondes
+scatter et profiling  :  0.8283469676971436 secondes
+scatter et profiling  :  0.8335187435150146 secondes
+scatter et profiling  :  0.8195614814758301 secondes
+scatter et profiling  :  0.838878870010376 secondes
+scatter et profiling  :  0.8555288314819336 secondes
+scatter et profiling  :  0.8678696155548096 secondes
+scatter et profiling  :  0.8715691566467285 secondes
+scatter et profiling  :  0.8723125457763672 secondes
+scatter et profiling  :  0.9246993064880371 secondes
+scatter et profiling  :  0.9634237289428711 secondes
+scatter et profiling  :  0.44565463066101074 secondes
+scatter et profiling  :  0.4619638919830322 secondes
+scatter et profiling  :  0.5279552936553955 secondes
+scatter et profiling  :  0.558098554611206 secondes
+scatter et profiling  :  0.5744867324829102 secondes
+scatter et profiling  :  0.6068949699401855 secondes
+scatter et profiling  :  0.633265495300293 secondes
+scatter et profiling  :  0.6566076278686523 secondes
+scatter et profiling  :  0.671065092086792 secondes
+scatter et profiling  :  0.6741666793823242 secondes
+scatter et profiling  :  0.6765928268432617 secondes
+scatter et profiling  :  0.6824109554290771 secondes
+scatter et profiling  :  0.7107210159301758 secondes
+scatter et profiling  :  0.7159404754638672 secondes
+scatter et profiling  :  0.7207493782043457 secondes
+scatter et profiling  :  0.7229444980621338 secondes
+scatter et profiling  :  0.7328395843505859 secondes
+scatter et profiling  :  0.7446339130401611 secondes
+scatter et profiling  :  0.7616696357727051 secondes
+scatter et profiling  :  0.7708775997161865 secondes
+scatter et profiling  :  0.788895845413208 secondes
+scatter et profiling  :  0.8024437427520752 secondes
+scatter et profiling  :  0.8238236904144287 secondes
+scatter et profiling  :  0.8314082622528076 secondes
+scatter et profiling  :  0.8464162349700928 secondes
+scatter et profiling  :  0.8470542430877686 secondes
+scatter et profiling  :  0.850325345993042 secondes
+scatter et profiling  :  0.8573219776153564 secondes
+scatter et profiling  :  0.8591029644012451 secondes
+scatter et profiling  :  0.8805046081542969 secondes
+scatter et profiling  :  0.9301443099975586 secondes
+scatter et profiling  :  0.9394721984863281 secondes
+ 
+ rank 14  total time in initialization is  37.398946
+ 
+ rank 14  total time simulation SimulationTo 40.399383
+[15:47:32][000014][PDI] *** info: Finalization
+ 
+ rank 5  total time in initialization is  37.291898
+ 
+ rank 5  total time simulation SimulationTo 40.501160
+[15:47:32][000005][PDI] *** info: Finalization
+ 
+ rank 15  total time in initialization is  37.398029
+ 
+ rank 15  total time simulation SimulationTo 40.399397
+[15:47:32][000015][PDI] *** info: Finalization
+ 
+ rank 4  total time in initialization is  37.302004
+ 
+ rank 4  total time simulation SimulationTo 40.502090
+[15:47:32][000004][PDI] *** info: Finalization
+ 
+ rank 12  total time in initialization is  37.396586
+ 
+ rank 12  total time simulation SimulationTo 40.403494
+[15:47:32][000012][PDI] *** info: Finalization
+ 
+ rank 13  total time in initialization is  37.392350
+ 
+ rank 13  total time simulation SimulationTo 40.403474
+[15:47:32][000013][PDI] *** info: Finalization
+ 
+ rank 0  total time in initialization is  37.430503
+ 
+ rank 0  total time simulation SimulationTo 40.366692
+[15:47:32][000000][PDI] *** info: Finalization
+ 
+ rank 1  total time in initialization is  37.432581
+ 
+ rank 1  total time simulation SimulationTo 40.367958
+[15:47:32][000001][PDI] *** info: Finalization
+ 
+ rank 19  total time in initialization is  37.391478
+ 
+ rank 19  total time simulation SimulationTo 40.408032
+[15:47:32][000019][PDI] *** info: Finalization
+ 
+ rank 18  total time in initialization is  37.380711
+ 
+ rank 18  total time simulation SimulationTo 40.423723
+[15:47:32][000018][PDI] *** info: Finalization
+ 
+ rank 24  total time in initialization is  37.248417
+ 
+ rank 24  total time simulation SimulationTo 40.552329
+[15:47:32][000024][PDI] *** info: Finalization
+ 
+ rank 25  total time in initialization is  37.244450
+ 
+ rank 25  total time simulation SimulationTo 40.552557
+[15:47:32][000025][PDI] *** info: Finalization
+ 
+ rank 22  total time in initialization is  37.395914
+ 
+ rank 22  total time simulation SimulationTo 40.401534
+[15:47:32][000022][PDI] *** info: Finalization
+ 
+ rank 28  total time in initialization is  37.236411
+ 
+ rank 28  total time simulation SimulationTo 40.568202
+[15:47:32][000028][PDI] *** info: Finalization
+ 
+ rank 29  total time in initialization is  37.231545
+ 
+ rank 29  total time simulation SimulationTo 40.568361
+[15:47:32][000029][PDI] *** info: Finalization
+ 
+ rank 23  total time in initialization is  37.395328
+ 
+ rank 23  total time simulation SimulationTo 40.401831
+[15:47:32][000023][PDI] *** info: Finalization
+ 
+ rank 16  total time in initialization is  37.432202
+ 
+ rank 16  total time simulation SimulationTo 40.367038
+[15:47:32][000016][PDI] *** info: Finalization
+ 
+ rank 26  total time in initialization is  37.227969
+ 
+ rank 26  total time simulation SimulationTo 40.568763
+[15:47:32][000026][PDI] *** info: Finalization
+ 
+ rank 17  total time in initialization is  37.436657
+ 
+ rank 17  total time simulation SimulationTo 40.367220
+[15:47:32][000017][PDI] *** info: Finalization
+ 
+ rank 8  total time in initialization is  37.403657
+ 
+ rank 8  total time simulation SimulationTo 40.402365
+[15:47:32][000008][PDI] *** info: Finalization
+ 
+ rank 27  total time in initialization is  37.229773
+ 
+ rank 27  total time simulation SimulationTo 40.569245
+[15:47:32][000027][PDI] *** info: Finalization
+ 
+ rank 9  total time in initialization is  37.396102
+ 
+ rank 9  total time simulation SimulationTo 40.402424
+[15:47:32][000009][PDI] *** info: Finalization
+ 
+ rank 30  total time in initialization is  37.433329
+ 
+ rank 30  total time simulation SimulationTo 40.369294
+[15:47:32][000030][PDI] *** info: Finalization
+ 
+ rank 20  total time in initialization is  37.318679
+ 
+ rank 20  total time simulation SimulationTo 40.478961
+[15:47:32][000020][PDI] *** info: Finalization
+ 
+ rank 31  total time in initialization is  37.427163
+ 
+ rank 31  total time simulation SimulationTo 40.369933
+[15:47:32][000031][PDI] *** info: Finalization
+ 
+ rank 3  total time in initialization is  37.389595
+ 
+ rank 3  total time simulation SimulationTo 40.406445
+[15:47:32][000003][PDI] *** info: Finalization
+ 
+ rank 21  total time in initialization is  37.313633
+ 
+ rank 21  total time simulation SimulationTo 40.481203
+[15:47:32][000021][PDI] *** info: Finalization
+ 
+ rank 2  total time in initialization is  37.399140
+ 
+ rank 2  total time simulation SimulationTo 40.406948
+[15:47:32][000002][PDI] *** info: Finalization
+ 
+ rank 6  total time in initialization is  38.584156
+ 
+ rank 6  total time simulation SimulationTo 39.220643
+[15:47:32][000006][PDI] *** info: Finalization
+ 
+ rank 7  total time in initialization is  38.576742
+ 
+ rank 7  total time simulation SimulationTo 39.222075
+[15:47:32][000007][PDI] *** info: Finalization
+ 
+ rank 10  total time in initialization is  37.248659
+ 
+ rank 10  total time simulation SimulationTo 40.557622
+[15:47:32][000010][PDI] *** info: Finalization
+ 
+ rank 11  total time in initialization is  37.241207
+ 
+ rank 11  total time simulation SimulationTo 40.555892
+[15:47:32][000011][PDI] *** info: Finalization
+[15:47:32][000014][MPI] *** info: Closing plugin
+[15:47:32][000015][MPI] *** info: Closing plugin
+[15:47:32][000013][MPI] *** info: Closing plugin
+[15:47:32][000012][MPI] *** info: Closing plugin
+[15:47:32][000018][MPI] *** info: Closing plugin
+[15:47:32][000019][MPI] *** info: Closing plugin
+[15:47:32][000024][MPI] *** info: Closing plugin
+[15:47:32][000025][MPI] *** info: Closing plugin
+[15:47:32][000028][MPI] *** info: Closing plugin
+[15:47:32][000029][MPI] *** info: Closing plugin
+[15:47:32][000010][MPI] *** info: Closing plugin
+[15:47:32][000011][MPI] *** info: Closing plugin
+[15:47:32][000002][MPI] *** info: Closing plugin
+[15:47:32][000003][MPI] *** info: Closing plugin
+[15:47:32][000006][MPI] *** info: Closing plugin
+[15:47:32][000007][MPI] *** info: Closing plugin
+[15:47:32][000000][MPI] *** info: Closing plugin
+[15:47:32][000004][MPI] *** info: Closing plugin
+[15:47:32][000005][MPI] *** info: Closing plugin
+[15:47:32][000001][MPI] *** info: Closing plugin
+[15:47:32][000016][MPI] *** info: Closing plugin
+[15:47:32][000017][MPI] *** info: Closing plugin
+[15:47:32][000030][MPI] *** info: Closing plugin
+[15:47:32][000008][MPI] *** info: Closing plugin
+[15:47:32][000031][MPI] *** info: Closing plugin
+[15:47:32][000009][MPI] *** info: Closing plugin
+[15:47:32][000022][MPI] *** info: Closing plugin
+[15:47:32][000023][MPI] *** info: Closing plugin
+[15:47:32][000020][MPI] *** info: Closing plugin
+[15:47:32][000026][MPI] *** info: Closing plugin
+[15:47:32][000021][MPI] *** info: Closing plugin
+[15:47:32][000027][MPI] *** info: Closing plugin

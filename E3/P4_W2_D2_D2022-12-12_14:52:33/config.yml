@@ -1,0 +1,8 @@
+MaxtimeSteps: 10
+global_size:
+  height: 32768
+  width: 32768
+parallelism:
+  height: 2
+  width: 2
+workers: 2

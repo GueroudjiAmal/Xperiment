@@ -1,0 +1,8 @@
+['tcp://172.21.5.113:38134', 'tcp://172.21.5.113:41090']
+dask.array<concatenate, shape=(10, 16388, 16388), dtype=float64, chunksize=(1, 8194, 8194), chunktype=numpy.ndarray>
+Generated contract {'global_t': [(0, 10, 1)]}
+Contract has been signed
+Original arrays deleted
+[33221739.97941457 26811985.20291643 22690496.67640525 19794306.9118726
+ 17634734.76527622 15954876.06521499]
+Done in  37.824841022491455
