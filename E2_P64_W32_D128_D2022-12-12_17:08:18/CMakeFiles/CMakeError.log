@@ -1,0 +1,75 @@
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /ccc/scratch/cont003/mds/guerouda/DASK_PHD_FIN/E2_P64_W32_D128_D2022-12-12_17:08:18/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_3a3ec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3a3ec.dir/build.make CMakeFiles/cmTC_3a3ec.dir/build
+gmake[1]: Entering directory `/ccc/scratch/cont003/mds/guerouda/DASK_PHD_FIN/E2_P64_W32_D128_D2022-12-12_17:08:18/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_3a3ec.dir/build.make:64: *** target pattern contains no `%'.  Stop.
+gmake[1]: Leaving directory `/ccc/scratch/cont003/mds/guerouda/DASK_PHD_FIN/E2_P64_W32_D128_D2022-12-12_17:08:18/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_3a3ec/fast] Error 2
+
+
+
+Detecting CXX [-std=c++2a] compiler features failed to compile with the following output:
+Change Dir: /ccc/scratch/cont003/mds/guerouda/DASK_PHD_FIN/E2_P64_W32_D128_D2022-12-12_17:08:18/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_83efe/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_83efe.dir/build.make CMakeFiles/cmTC_83efe.dir/build
+gmake[1]: Entering directory `/ccc/scratch/cont003/mds/guerouda/DASK_PHD_FIN/E2_P64_W32_D128_D2022-12-12_17:08:18/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_83efe.dir/build.make:64: *** target pattern contains no `%'.  Stop.
+gmake[1]: Leaving directory `/ccc/scratch/cont003/mds/guerouda/DASK_PHD_FIN/E2_P64_W32_D128_D2022-12-12_17:08:18/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_83efe/fast] Error 2
+
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /ccc/scratch/cont003/mds/guerouda/DASK_PHD_FIN/E2_P64_W32_D128_D2022-12-12_17:08:18/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_23324/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_23324.dir/build.make CMakeFiles/cmTC_23324.dir/build
+gmake[1]: Entering directory `/ccc/scratch/cont003/mds/guerouda/DASK_PHD_FIN/E2_P64_W32_D128_D2022-12-12_17:08:18/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23324.dir/CheckSymbolExists.c.o
+/ccc/products/gcc-9.3.0/system/default/bin/gcc    -o CMakeFiles/cmTC_23324.dir/CheckSymbolExists.c.o   -c /ccc/scratch/cont003/mds/guerouda/DASK_PHD_FIN/E2_P64_W32_D128_D2022-12-12_17:08:18/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_23324
+/ccc/products2/cmake-3.13.3/Atos_7__x86_64/system/default/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23324.dir/link.txt --verbose=1
+/ccc/products/gcc-9.3.0/system/default/bin/gcc      CMakeFiles/cmTC_23324.dir/CheckSymbolExists.c.o  -o cmTC_23324 
+CMakeFiles/cmTC_23324.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_23324] Error 1
+gmake[1]: Leaving directory `/ccc/scratch/cont003/mds/guerouda/DASK_PHD_FIN/E2_P64_W32_D128_D2022-12-12_17:08:18/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_23324/fast] Error 2
+
+File /ccc/scratch/cont003/mds/guerouda/DASK_PHD_FIN/E2_P64_W32_D128_D2022-12-12_17:08:18/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /ccc/scratch/cont003/mds/guerouda/DASK_PHD_FIN/E2_P64_W32_D128_D2022-12-12_17:08:18/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c83cd/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c83cd.dir/build.make CMakeFiles/cmTC_c83cd.dir/build
+gmake[1]: Entering directory `/ccc/scratch/cont003/mds/guerouda/DASK_PHD_FIN/E2_P64_W32_D128_D2022-12-12_17:08:18/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c83cd.dir/CheckFunctionExists.c.o
+/ccc/products/gcc-9.3.0/system/default/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c83cd.dir/CheckFunctionExists.c.o   -c /ccc/products2/cmake-3.13.3/Atos_7__x86_64/system/default/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c83cd
+/ccc/products2/cmake-3.13.3/Atos_7__x86_64/system/default/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c83cd.dir/link.txt --verbose=1
+/ccc/products/gcc-9.3.0/system/default/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c83cd.dir/CheckFunctionExists.c.o  -o cmTC_c83cd -lpthreads 
+/ccc/work/cont003/gen2224/gen2224/spack/var/spack/environments/gysela-deisa-irene-skl-draft/.spack-env/view/bin/ld.gold: error: cannot find -lpthreads
+CMakeFiles/cmTC_c83cd.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_c83cd] Error 1
+gmake[1]: Leaving directory `/ccc/scratch/cont003/mds/guerouda/DASK_PHD_FIN/E2_P64_W32_D128_D2022-12-12_17:08:18/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_c83cd/fast] Error 2
+
+

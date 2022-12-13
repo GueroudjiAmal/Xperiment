@@ -1,0 +1,34 @@
+nprocdask 6 nworker 4 nnodes 4
+Running Simulation
+Submitted Batch Session 7583985
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 7583139
+Jobname   : post_sim
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 12/12/2022 17:08:48 , start = 12/12/2022 19:36:55 , end = 12/12/2022 21:36:57
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 96 , cpus/task = 1 , ncpus = 96 , nodes = 2
+   Nodes=irene[1412,1426] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+7583139.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+7583139.batch       26 (irene1412   :   0)      14      0.00 (irene1412   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+7583139         post_sim                      -     96      2        -     00:01:33   (100%)            -            -      -  -
+7583139.batch   batch                         1     48      1  Unknown     00:01:33   (100%)     00:00:00     00:00:00      0  RUNNING
+7583139.extern  extern                        2     96      2  Unknown     00:01:33 (100.0%)     00:00:00     00:00:00      0  RUNNING
+7583139.0       simulation                    4     96      2   BBlock     00:00:55  (59.1%)     00:36:01     00:00:29   41.4  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########

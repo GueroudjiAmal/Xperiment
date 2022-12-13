@@ -1,0 +1,4 @@
+0: chunks 4096 4096
+0: client connected
+0: <HDF5 dataset "local_t": shape (10, 16392, 16392), type "<f8">
+0: gt array dask.array<array, shape=(10, 16392, 16392), dtype=float64, chunksize=(1, 4096, 4096), chunktype=numpy.ndarray>

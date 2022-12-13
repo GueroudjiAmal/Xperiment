@@ -1,0 +1,35 @@
+launching Scheduler
+........Connect Master Client
+Scheduler booted, Client connected, launching workers
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 7584034
+Jobname   : post_dask
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 12/12/2022 20:00:56 , start = 12/12/2022 20:02:16 , end = 12/12/2022 22:02:17
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 864 , cpus/task = 1 , ncpus = 864 , nodes = 18
+   Nodes=irene[1552,1556,1558-1569,1571-1573,1575] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+7584034.batch       70 (irene1552   :   0)      14      2.00 (irene1552   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+7584034         post_dask                     -    864     18        -     01:59:57   (100%)            -            -      -  -
+7584034.batch   batch                         1     48      1  Unknown     01:59:57   (100%)     00:00:00     00:00:00      0  RUNNING
+7584034.extern  extern                       18    864     18  Unknown     01:59:48  (99.8%)     00:00:00     00:00:00      -  COMPLETED
+7584034.0       dask-scheduler                1     48      1   BBlock     01:59:26  (99.5%)     00:03:16     00:00:32      0  FAILED
+7584034.1       dask-worker                  32    768     16   BBlock     01:59:05  (99.2%)     02:02:32     00:22:13     .1  COMPLETED
+7584034.2       python3                       1     48      1   BBlock     00:02:00   (1.6%)     00:00:06     00:00:01     .1  FAILED
+########## ########## ########## ########## ########## ########## ########## ##########
