@@ -1,0 +1,48 @@
+[12:11:24][PDI] *** info: Initialization successful
+[12:11:24][PDI] *** info: Initialization successful
+[12:11:24][PDI] *** info: Initialization successful
+[12:11:24][PDI] *** info: Initialization successful
+[12:11:24][PDI] *** info: Initialization successful
+[12:11:24][PDI] *** info: Initialization successful
+[12:11:24][PDI] *** info: Initialization successful
+[12:11:24][PDI] *** info: Initialization successful
+ 
+ rank 4  total time in initialization is  10.767340
+ 
+ rank 4  total time simulation SimulationTo 53.950398
+[12:12:29][PDI] *** info: Finalization
+ 
+ rank 2  total time in initialization is  10.767843
+ 
+ rank 2  total time simulation SimulationTo 53.951334
+[12:12:29][PDI] *** info: Finalization
+ 
+ rank 5  total time in initialization is  10.762047
+ 
+ rank 5  total time simulation SimulationTo 53.950879
+[12:12:29][PDI] *** info: Finalization
+ 
+ rank 3  total time in initialization is  10.765506
+ 
+ rank 3  total time simulation SimulationTo 53.950817
+[12:12:29][PDI] *** info: Finalization
+ 
+ rank 6  total time in initialization is  10.765445
+ 
+ rank 6  total time simulation SimulationTo 53.951430
+[12:12:29][PDI] *** info: Finalization
+ 
+ rank 7  total time in initialization is  10.764592
+ 
+ rank 7  total time simulation SimulationTo 53.951531
+[12:12:29][PDI] *** info: Finalization
+ 
+ rank 1  total time in initialization is  10.763166
+ 
+ rank 1  total time simulation SimulationTo 53.954601
+[12:12:29][PDI] *** info: Finalization
+ 
+ rank 0  total time in initialization is  10.768049
+ 
+ rank 0  total time simulation SimulationTo 53.954996
+[12:12:29][PDI] *** info: Finalization

@@ -1,0 +1,2 @@
+pca,  IncrementalPCA(copy=False, n_components=2, svd_solver='randomized')
+Total time to Dask solution is  397.0211024256423
