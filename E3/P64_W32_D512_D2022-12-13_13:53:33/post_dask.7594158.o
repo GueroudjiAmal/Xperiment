@@ -1,0 +1,36 @@
+launching Scheduler
+..............Connect Master Client
+Scheduler booted, Client connected, launching workers
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 7594158
+Jobname   : post_dask
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 14/12/2022 03:31:24 , start = 14/12/2022 03:31:33 , end = 14/12/2022 05:31:34
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 1632 , cpus/task = 1 , ncpus = 1632 , nodes = 34
+   Nodes=irene[2105,2110,2112,2114-2115,2118-2119,2121,2123,2128,2131,2136-2138,2140,2142,2144,2186,2188,2190-2193,2211,2214-2216,2218,2225,2251,2269,2271,2274,2277] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+7594158.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+7594158.batch       71 (irene2105   :   0)      14      2.00 (irene2105   :   0)    1.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+7594158         post_dask                     -   1632     34        -     01:07:03   (100%)            -            -      -  -
+7594158.batch   batch                         1     48      1  Unknown     01:07:03   (100%)     00:00:00     00:00:00      0  RUNNING
+7594158.extern  extern                       34   1632     34  Unknown     01:07:03 (100.0%)     00:00:00     00:00:00      0  RUNNING
+7594158.0       dask-scheduler                1     48      1   BBlock     01:06:11  (98.7%)     00:02:15     00:00:18      0  COMPLETED
+7594158.1       dask-worker                  64   1536     32   BBlock     01:05:31  (97.7%)     02:52:13     01:08:34     .2  COMPLETED
+7594158.2       python3                       1     48      1   BBlock     01:05:30  (97.6%)     00:00:06     00:00:02      0  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########

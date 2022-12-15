@@ -1,0 +1,36 @@
+launching Scheduler
+...................Connect Master Client
+Scheduler booted, Client connected, launching workers
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 7593422
+Jobname   : post_dask
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 14/12/2022 02:14:47 , start = 14/12/2022 02:14:48 , end = 14/12/2022 04:14:51
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 1632 , cpus/task = 1 , ncpus = 1632 , nodes = 34
+   Nodes=irene[2105-2109,2120,2125,2129,2132-2134,2217-2218,2224-2226,2235,2251,2256,2268-2280,2289-2290] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+7593422.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+7593422.batch       84 (irene2105   :   0)      14      2.00 (irene2105   :   0)    1.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+7593422         post_dask                     -   1632     34        -     01:07:37   (100%)            -            -      -  -
+7593422.batch   batch                         1     48      1  Unknown     01:07:37   (100%)     00:00:00     00:00:00      0  RUNNING
+7593422.extern  extern                       34   1632     34  Unknown     01:07:37 (100.0%)     00:00:00     00:00:00      0  RUNNING
+7593422.0       dask-scheduler                1     48      1   BBlock     00:56:51  (84.0%)     00:01:50     00:00:15      0  COMPLETED
+7593422.1       dask-worker                  64   1536     32   BBlock     01:06:01  (97.6%)     02:14:20     00:48:32     .1  COMPLETED
+7593422.2       python3                       1     48      1   BBlock     00:55:52  (82.6%)     00:00:06     00:00:02      0  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########

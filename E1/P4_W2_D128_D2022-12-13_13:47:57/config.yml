@@ -1,0 +1,11 @@
+MaxtimeSteps: 10
+chunks:
+  height: 4096.0
+  width: 4096.0
+global_size:
+  height: 8192
+  width: 8192
+parallelism:
+  height: 2
+  width: 2
+workers: 2
