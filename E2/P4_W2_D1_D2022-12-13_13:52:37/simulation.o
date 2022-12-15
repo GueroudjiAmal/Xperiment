@@ -1,0 +1,24 @@
+[14:47:59][PDI] *** info: Initialization successful
+[14:47:59][PDI] *** info: Initialization successful
+[14:47:59][PDI] *** info: Initialization successful
+[14:47:59][PDI] *** info: Initialization successful
+ 
+ rank 0  total time in initialization is  14.380115
+ 
+ rank 0  total time simulation SimulationTo 149.821337
+[14:50:44][PDI] *** info: Finalization
+ 
+ rank 1  total time in initialization is  14.377390
+ 
+ rank 1  total time simulation SimulationTo 149.821451
+[14:50:44][PDI] *** info: Finalization
+ 
+ rank 3  total time in initialization is  14.386734
+ 
+ rank 3  total time simulation SimulationTo 149.822374
+[14:50:44][PDI] *** info: Finalization
+ 
+ rank 2  total time in initialization is  14.382536
+ 
+ rank 2  total time simulation SimulationTo 149.823316
+[14:50:44][PDI] *** info: Finalization

@@ -1,0 +1,75 @@
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /ccc/work/cont003/mds/guerouda/deisa_v1/DEISA1_PHD_IPCA_FIN/E1/P128_W64_D128_D2022-12-13_13:51:59/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_013f2/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_013f2.dir/build.make CMakeFiles/cmTC_013f2.dir/build
+gmake[1]: Entering directory `/ccc/work/cont003/mds/guerouda/deisa_v1/DEISA1_PHD_IPCA_FIN/E1/P128_W64_D128_D2022-12-13_13:51:59/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_013f2.dir/build.make:64: *** target pattern contains no `%'.  Stop.
+gmake[1]: Leaving directory `/ccc/work/cont003/mds/guerouda/deisa_v1/DEISA1_PHD_IPCA_FIN/E1/P128_W64_D128_D2022-12-13_13:51:59/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_013f2/fast] Error 2
+
+
+
+Detecting CXX [-std=c++2a] compiler features failed to compile with the following output:
+Change Dir: /ccc/work/cont003/mds/guerouda/deisa_v1/DEISA1_PHD_IPCA_FIN/E1/P128_W64_D128_D2022-12-13_13:51:59/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_189cb/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_189cb.dir/build.make CMakeFiles/cmTC_189cb.dir/build
+gmake[1]: Entering directory `/ccc/work/cont003/mds/guerouda/deisa_v1/DEISA1_PHD_IPCA_FIN/E1/P128_W64_D128_D2022-12-13_13:51:59/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_189cb.dir/build.make:64: *** target pattern contains no `%'.  Stop.
+gmake[1]: Leaving directory `/ccc/work/cont003/mds/guerouda/deisa_v1/DEISA1_PHD_IPCA_FIN/E1/P128_W64_D128_D2022-12-13_13:51:59/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_189cb/fast] Error 2
+
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /ccc/work/cont003/mds/guerouda/deisa_v1/DEISA1_PHD_IPCA_FIN/E1/P128_W64_D128_D2022-12-13_13:51:59/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_51836/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_51836.dir/build.make CMakeFiles/cmTC_51836.dir/build
+gmake[1]: Entering directory `/ccc/work/cont003/mds/guerouda/deisa_v1/DEISA1_PHD_IPCA_FIN/E1/P128_W64_D128_D2022-12-13_13:51:59/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51836.dir/CheckSymbolExists.c.o
+/ccc/products/gcc-9.3.0/system/default/bin/gcc    -o CMakeFiles/cmTC_51836.dir/CheckSymbolExists.c.o   -c /ccc/work/cont003/mds/guerouda/deisa_v1/DEISA1_PHD_IPCA_FIN/E1/P128_W64_D128_D2022-12-13_13:51:59/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_51836
+/ccc/products2/cmake-3.13.3/Atos_7__x86_64/system/default/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51836.dir/link.txt --verbose=1
+/ccc/products/gcc-9.3.0/system/default/bin/gcc      CMakeFiles/cmTC_51836.dir/CheckSymbolExists.c.o  -o cmTC_51836 
+CMakeFiles/cmTC_51836.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_51836] Error 1
+gmake[1]: Leaving directory `/ccc/work/cont003/mds/guerouda/deisa_v1/DEISA1_PHD_IPCA_FIN/E1/P128_W64_D128_D2022-12-13_13:51:59/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_51836/fast] Error 2
+
+File /ccc/work/cont003/mds/guerouda/deisa_v1/DEISA1_PHD_IPCA_FIN/E1/P128_W64_D128_D2022-12-13_13:51:59/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /ccc/work/cont003/mds/guerouda/deisa_v1/DEISA1_PHD_IPCA_FIN/E1/P128_W64_D128_D2022-12-13_13:51:59/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1f15d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1f15d.dir/build.make CMakeFiles/cmTC_1f15d.dir/build
+gmake[1]: Entering directory `/ccc/work/cont003/mds/guerouda/deisa_v1/DEISA1_PHD_IPCA_FIN/E1/P128_W64_D128_D2022-12-13_13:51:59/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f15d.dir/CheckFunctionExists.c.o
+/ccc/products/gcc-9.3.0/system/default/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1f15d.dir/CheckFunctionExists.c.o   -c /ccc/products2/cmake-3.13.3/Atos_7__x86_64/system/default/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1f15d
+/ccc/products2/cmake-3.13.3/Atos_7__x86_64/system/default/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f15d.dir/link.txt --verbose=1
+/ccc/products/gcc-9.3.0/system/default/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1f15d.dir/CheckFunctionExists.c.o  -o cmTC_1f15d -lpthreads 
+/ccc/work/cont003/gen2224/gen2224/spack/var/spack/environments/gysela-deisa-irene-skl-draft/.spack-env/view/bin/ld.gold: error: cannot find -lpthreads
+CMakeFiles/cmTC_1f15d.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_1f15d] Error 1
+gmake[1]: Leaving directory `/ccc/work/cont003/mds/guerouda/deisa_v1/DEISA1_PHD_IPCA_FIN/E1/P128_W64_D128_D2022-12-13_13:51:59/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_1f15d/fast] Error 2
+
+

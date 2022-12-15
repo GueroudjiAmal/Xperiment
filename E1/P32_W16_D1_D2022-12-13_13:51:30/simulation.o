@@ -1,0 +1,192 @@
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+[15:40:42][PDI] *** info: Initialization successful
+ 
+ rank 20  total time in initialization is  19.152010
+ 
+ rank 20  total time simulation SimulationTo 393.366160
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 2  total time in initialization is  19.153934
+ 
+ rank 2  total time simulation SimulationTo 393.365541
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 0  total time in initialization is  19.167505
+ 
+ rank 0  total time simulation SimulationTo 393.371182
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 4  total time in initialization is  19.154975
+ 
+ rank 4  total time simulation SimulationTo 393.367129
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 26  total time in initialization is  19.164327
+ 
+ rank 26  total time simulation SimulationTo 393.367875
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 25  total time in initialization is  19.145538
+ 
+ rank 25  total time simulation SimulationTo 393.369415
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 23  total time in initialization is  19.140044
+ 
+ rank 23  total time simulation SimulationTo 393.367286
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 21  total time in initialization is  19.158972
+ 
+ rank 21  total time simulation SimulationTo 393.369226
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 18  total time in initialization is  19.165207
+ 
+ rank 18  total time simulation SimulationTo 393.368511
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 31  total time in initialization is  19.156788
+ 
+ rank 31  total time simulation SimulationTo 393.367931
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 28  total time in initialization is  19.166285
+ 
+ rank 28  total time simulation SimulationTo 393.371676
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 12  total time in initialization is  19.161234
+ 
+ rank 12  total time simulation SimulationTo 393.367875
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 14  total time in initialization is  19.152129
+ 
+ rank 14  total time simulation SimulationTo 393.368740
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 16  total time in initialization is  19.150711
+ 
+ rank 16  total time simulation SimulationTo 393.365804
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 11  total time in initialization is  19.139144
+ 
+ rank 11  total time simulation SimulationTo 393.365410
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 9  total time in initialization is  19.155245
+ 
+ rank 9  total time simulation SimulationTo 393.366851
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 6  total time in initialization is  19.161295
+ 
+ rank 6  total time simulation SimulationTo 393.368875
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 3  total time in initialization is  19.144903
+ 
+ rank 3  total time simulation SimulationTo 393.367203
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 1  total time in initialization is  19.148687
+ 
+ rank 1  total time simulation SimulationTo 393.371199
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 5  total time in initialization is  19.138782
+ 
+ rank 5  total time simulation SimulationTo 393.368396
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 27  total time in initialization is  19.153838
+ 
+ rank 27  total time simulation SimulationTo 393.370418
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 24  total time in initialization is  19.164097
+ 
+ rank 24  total time simulation SimulationTo 393.369948
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 22  total time in initialization is  19.155632
+ 
+ rank 22  total time simulation SimulationTo 393.370612
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 19  total time in initialization is  19.153875
+ 
+ rank 19  total time simulation SimulationTo 393.371195
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 30  total time in initialization is  19.161983
+ 
+ rank 30  total time simulation SimulationTo 393.369592
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 29  total time in initialization is  19.142598
+ 
+ rank 29  total time simulation SimulationTo 393.372608
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 13  total time in initialization is  19.152308
+ 
+ rank 13  total time simulation SimulationTo 393.369508
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 15  total time in initialization is  19.161059
+ 
+ rank 15  total time simulation SimulationTo 393.370124
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 17  total time in initialization is  19.154986
+ 
+ rank 17  total time simulation SimulationTo 393.367196
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 10  total time in initialization is  19.148534
+ 
+ rank 10  total time simulation SimulationTo 393.370325
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 8  total time in initialization is  19.159581
+ 
+ rank 8  total time simulation SimulationTo 393.369115
+[15:47:35][PDI] *** info: Finalization
+ 
+ rank 7  total time in initialization is  19.135831
+ 
+ rank 7  total time simulation SimulationTo 393.369542
+[15:47:35][PDI] *** info: Finalization
