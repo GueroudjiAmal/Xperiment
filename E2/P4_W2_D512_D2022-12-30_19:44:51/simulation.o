@@ -1,0 +1,56 @@
+[19:55:54][000003][MPI] *** info: Plugin loaded successfully
+[19:55:54][000001][MPI] *** info: Plugin loaded successfully
+[19:55:54][000002][MPI] *** info: Plugin loaded successfully
+[19:55:54][000000][MPI] *** info: Plugin loaded successfully
+[19:55:54][000002][PDI] *** info: Initialization successful
+[19:55:54][000003][PDI] *** info: Initialization successful
+[19:55:54][000000][PDI] *** info: Initialization successful
+[19:55:54][000001][PDI] *** info: Initialization successful
+scatter et profiling  :  1.1557040214538574 secondes
+scatter et profiling  :  1.2312679290771484 secondes
+scatter et profiling  :  2.4239938259124756 secondes
+scatter et profiling  :  2.5101964473724365 secondes
+scatter et profiling  :  1.1861484050750732 secondes
+scatter et profiling  :  1.4203760623931885 secondes
+scatter et profiling  :  1.4436960220336914 secondes
+scatter et profiling  :  1.5205941200256348 secondes
+scatter et profiling  :  1.1625385284423828 secondes
+scatter et profiling  :  1.3045663833618164 secondes
+scatter et profiling  :  1.3483073711395264 secondes
+scatter et profiling  :  1.4611728191375732 secondes
+scatter et profiling  :  1.3300743103027344 secondes
+scatter et profiling  :  1.449026346206665 secondes
+scatter et profiling  :  1.5887227058410645 secondes
+scatter et profiling  :  1.6404151916503906 secondes
+scatter et profiling  :  1.3292491436004639 secondes
+scatter et profiling  :  1.4340629577636719 secondes
+scatter et profiling  :  1.447129249572754 secondes
+scatter et profiling  :  1.5746369361877441 secondes
+scatter et profiling  :  1.2431187629699707 secondes
+scatter et profiling  :  1.273078203201294 secondes
+scatter et profiling  :  1.320669174194336 secondes
+scatter et profiling  :  1.4621467590332031 secondes
+ 
+ rank 2  total time in initialization is  4.166812
+ 
+ rank 2  total time simulation SimulationTo 66.125537
+[19:57:05][000002][PDI] *** info: Finalization
+ 
+ rank 3  total time in initialization is  4.171538
+ 
+ rank 3  total time simulation SimulationTo 66.125558
+[19:57:05][000003][PDI] *** info: Finalization
+ 
+ rank 0  total time in initialization is  4.162213
+ 
+ rank 0  total time simulation SimulationTo 66.124765
+[19:57:05][000000][PDI] *** info: Finalization
+ 
+ rank 1  total time in initialization is  4.166812
+ 
+ rank 1  total time simulation SimulationTo 66.126351
+[19:57:05][000001][PDI] *** info: Finalization
+[19:57:05][000000][MPI] *** info: Closing plugin
+[19:57:05][000003][MPI] *** info: Closing plugin
+[19:57:05][000002][MPI] *** info: Closing plugin
+[19:57:05][000001][MPI] *** info: Closing plugin

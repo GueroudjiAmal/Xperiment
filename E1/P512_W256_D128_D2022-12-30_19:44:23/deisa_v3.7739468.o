@@ -1,0 +1,38 @@
+launching Scheduler
+.............................Connect Master Client
+Scheduler booted, Client connected, launching workers
+Running Simulation
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 7739468
+Jobname   : deisa_v3
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 30/12/2022 19:44:28 , start = 30/12/2022 20:20:26 , end = 30/12/2022 22:20:26
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 18528 , cpus/task = 1 , ncpus = 18528 , nodes = 386
+   Nodes=irene[1276-1277,1279,1281-1297,1312,1314-1316,1318-1346,1364,1386-1393,1421-1451,1477-1478,1510-1512,1514-1531,1623-1624,1626-1707,1709-1826,1909,2001-2009,2392-2415,2510,2514-2538,2540,2548-2549,2551-2555] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+7739468.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+7739468.batch       93 (irene1276   :   0)      15      3.00 (irene1276   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+7739468         deisa_v3                      -  18528    386        -     00:05:41   (100%)            -            -      -  -
+7739468.batch   batch                         1     48      1  Unknown     00:05:41   (100%)     00:00:00     00:00:00      0  RUNNING
+7739468.extern  extern                      386  18528    386  Unknown     00:05:41 (100.0%)     00:00:00     00:00:00      0  RUNNING
+7739468.0       dask-scheduler                1     48      1   BBlock     00:03:59  (70.0%)     00:00:41     00:00:05     .4  COMPLETED
+7739468.1       dask-worker                 256   6144    128   BBlock     00:02:31  (44.2%)     00:29:21     00:22:31     .3  COMPLETED
+7739468.2       simulation                  512  12288    256   BBlock     00:02:29  (43.6%)   2-11:39:54     00:23:44   11.8  COMPLETED
+7739468.3       python3                       1     48      1   BBlock     00:02:32  (44.5%)     00:00:07     00:00:01     .1  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########
