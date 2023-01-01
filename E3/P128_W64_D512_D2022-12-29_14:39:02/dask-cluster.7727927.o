@@ -1,0 +1,38 @@
+launching Scheduler
+.........Connect Master Client
+Scheduler booted, Client connected, launching workers
+Running Simulation
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 7727927
+Jobname   : dask-cluster
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 29/12/2022 14:39:06 , start = 29/12/2022 15:37:04 , end = 29/12/2022 17:37:04
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 4704 , cpus/task = 1 , ncpus = 4704 , nodes = 98
+   Nodes=irene[1047,1049,1051,1086,1101,1142-1143,1170,1553,1557,1561,1566,1570-1571,1573,1578-1579,1584,1593-1597,1608,1610-1611,1614,1622,1632,1634-1635,1637-1638,1646,1649,1651-1669,1794-1797,1801-1803,1806,1808,1815-1818,1820,1876-1877,1882,1890-1891,1893-1894,1896,1899,1913,1934-1937,1939-1942,1948-1959] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+7727927.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+7727927.batch       92 (irene1047   :   0)      14      3.00 (irene1047   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+7727927         dask-cluster                  -   4704     98        -     00:22:19   (100%)            -            -      -  -
+7727927.batch   batch                         1     48      1  Unknown     00:22:19   (100%)     00:00:00     00:00:00      0  RUNNING
+7727927.extern  extern                       98   4704     98  Unknown     00:22:19 (100.0%)     00:00:00     00:00:00      0  RUNNING
+7727927.0       dask-scheduler                1     48      1   BBlock     00:19:50  (88.8%)     00:00:40     00:00:07      0  COMPLETED
+7727927.1       dask-worker                  64   1536     32   BBlock     00:19:22  (86.7%)     00:50:40     00:26:36     .2  COMPLETED
+7727927.2       simulation                  128   3072     64   BBlock     00:21:23  (95.8%)   1-18:26:24     00:23:26    3.9  COMPLETED
+7727927.3       python3                       1     48      1   BBlock     00:19:21  (86.7%)     00:00:06     00:00:01      0  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########
