@@ -1,0 +1,35 @@
+launching Scheduler
+.....Connect Master Client
+Scheduler booted, Client connected, launching workers
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 7738234
+Jobname   : post_dask
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 30/12/2022 16:44:06 , start = 30/12/2022 16:44:06 , end = 30/12/2022 18:44:07
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 1632 , cpus/task = 1 , ncpus = 1632 , nodes = 34
+   Nodes=irene[2591-2624] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+7738234.batch       71 (irene2591   :   0)      14      2.00 (irene2591   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+7738234         post_dask                     -   1632     34        -     02:00:21   (100%)            -            -      -  -
+7738234.batch   batch                         1     48      1  Unknown     02:00:21   (100%)     00:00:00     00:00:00      0  RUNNING
+7738234.extern  extern                       34   1632     34  Unknown     01:59:56  (99.6%)     00:00:00     00:00:00      -  COMPLETED
+7738234.0       dask-scheduler                1     48      1   BBlock     01:59:35  (99.3%)     00:04:10     00:00:32      0  FAILED
+7738234.1       dask-worker                  64   1536     32   BBlock     01:59:40  (99.4%)     04:11:28     01:13:02     .1  CANCELLED
+7738234.2       python3                       1     48      1   BBlock     01:59:18  (99.1%)     00:00:08     00:00:02      0  CANCELLED
+########## ########## ########## ########## ########## ########## ########## ##########

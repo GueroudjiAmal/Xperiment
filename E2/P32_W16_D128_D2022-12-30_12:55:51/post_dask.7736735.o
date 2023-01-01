@@ -1,0 +1,36 @@
+launching Scheduler
+...Connect Master Client
+Scheduler booted, Client connected, launching workers
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 7736735
+Jobname   : post_dask
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 30/12/2022 13:27:20 , start = 30/12/2022 13:27:22 , end = 30/12/2022 15:27:22
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 864 , cpus/task = 1 , ncpus = 864 , nodes = 18
+   Nodes=irene[2185,2215,2217-2218,2228,2230-2231,2273-2276,2352-2353,2360-2361,2369,2374,2379] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+7736735.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+7736735.batch       70 (irene2185   :   0)      14      2.00 (irene2185   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+7736735         post_dask                     -    864     18        -     00:14:26   (100%)            -            -      -  -
+7736735.batch   batch                         1     48      1  Unknown     00:14:26   (100%)     00:00:00     00:00:00      0  RUNNING
+7736735.extern  extern                       18    864     18  Unknown     00:14:26 (100.0%)     00:00:00     00:00:00      0  RUNNING
+7736735.0       dask-scheduler                1     48      1   BBlock     00:14:04  (97.4%)     00:00:30     00:00:04      0  COMPLETED
+7736735.1       dask-worker                  32    768     16   BBlock     00:13:55  (96.4%)     00:19:42     00:09:08     .2  COMPLETED
+7736735.2       python3                       1     48      1   BBlock     00:13:54  (96.3%)     00:00:03     00:00:01      0  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########

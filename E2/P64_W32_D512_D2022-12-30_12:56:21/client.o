@@ -1,0 +1,4 @@
+0: client connected
+0: chunks 8192 8192
+0: <HDF5 dataset "local_t": shape (10, 65552, 65552), type "<f8">
+0: pca,  InSituIncrementalPCA(copy=False, n_components=2, svd_solver='randomized')

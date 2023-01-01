@@ -1,0 +1,34 @@
+nprocdask 10 nworker 8 nnodes 6
+Running Simulation
+Submitted Batch Session 7737616
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 7737468
+Jobname   : post_sim
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 30/12/2022 15:21:37 , start = 30/12/2022 15:35:01 , end = 30/12/2022 17:35:01
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 192 , cpus/task = 1 , ncpus = 192 , nodes = 4
+   Nodes=irene[1096-1099] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+7737468.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+7737468.batch       51 (irene1096   :   0)      14      1.00 (irene1096   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+7737468         post_sim                      -    192      4        -     00:04:17   (100%)            -            -      -  -
+7737468.batch   batch                         1     48      1  Unknown     00:04:17   (100%)     00:00:00     00:00:00      0  RUNNING
+7737468.extern  extern                        4    192      4  Unknown     00:04:17 (100.0%)     00:00:00     00:00:00      0  RUNNING
+7737468.0       simulation                    8    192      4   BBlock     00:03:36  (84.0%)     05:08:46     00:02:08   44.9  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########
