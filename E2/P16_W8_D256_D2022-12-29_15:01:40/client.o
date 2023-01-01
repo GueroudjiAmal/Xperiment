@@ -1,0 +1,8 @@
+['tcp://172.21.1.107:36868', 'tcp://172.21.1.107:43348', 'tcp://172.21.1.108:38421', 'tcp://172.21.1.108:43045', 'tcp://172.21.1.109:36852', 'tcp://172.21.1.109:39254', 'tcp://172.21.1.115:37438', 'tcp://172.21.1.115:39173']
+dask.array<concatenate, shape=(10, 32776, 16392), dtype=float64, chunksize=(1, 8194, 4098), chunktype=numpy.ndarray>
+Generated contract {'global_t': [(0, 10, 1)]}
+Contract has been signed
+Original arrays deleted
+pca,  InSituIncrementalPCA(copy=False, n_components=2, svd_solver='randomized')
+explained_variance ,singular_values:  [4.07770761e+11 1.39030901e+10]  and  [3.65582462e+08 6.75045398e+07]
+Done in : 96.62073884159327

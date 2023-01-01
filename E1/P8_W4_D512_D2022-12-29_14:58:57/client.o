@@ -1,0 +1,8 @@
+['tcp://172.21.3.156:42489', 'tcp://172.21.3.156:45905', 'tcp://172.21.3.157:37444', 'tcp://172.21.3.157:44846']
+dask.array<concatenate, shape=(10, 32776, 16388), dtype=float64, chunksize=(1, 8194, 8194), chunktype=numpy.ndarray>
+Generated contract {'global_t': [(0, 10, 1)]}
+Contract has been signed
+Original arrays deleted
+pca,  InSituIncrementalPCA(copy=False, n_components=2, svd_solver='randomized')
+explained_variance ,singular_values:  [4.07770761e+11 1.39030901e+10]  and  [3.65582462e+08 6.75045398e+07]
+Done in : 171.04816701391246
