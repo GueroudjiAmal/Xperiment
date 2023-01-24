@@ -1,0 +1,64 @@
+[11:10:53][000002][MPI] *** info: Plugin loaded successfully
+[11:10:53][000000][MPI] *** info: Plugin loaded successfully
+[11:10:53][000001][MPI] *** info: Plugin loaded successfully
+[11:10:53][000003][MPI] *** info: Plugin loaded successfully
+[11:10:54][000005][MPI] *** info: Plugin loaded successfully
+[11:10:54][000004][MPI] *** info: Plugin loaded successfully
+[11:10:54][000006][MPI] *** info: Plugin loaded successfully
+[11:10:54][000002][PDI] *** info: Initialization successful
+[11:10:54][000003][PDI] *** info: Initialization successful
+[11:10:54][000000][PDI] *** info: Initialization successful
+[11:10:54][000001][PDI] *** info: Initialization successful
+[11:10:54][000007][MPI] *** info: Plugin loaded successfully
+[11:10:54][000004][PDI] *** info: Initialization successful
+[11:10:54][000005][PDI] *** info: Initialization successful
+[11:10:54][000006][PDI] *** info: Initialization successful
+[11:10:54][000007][PDI] *** info: Initialization successful
+ 
+ rank 6  total time in initialization is  20.565008
+ 
+ rank 5  total time in initialization is  20.566583
+ 
+ rank 1  total time in initialization is  20.561158
+ 
+ rank 7  total time in initialization is  20.562479
+ 
+ rank 2  total time in initialization is  20.570966
+ 
+ rank 3  total time in initialization is  20.561773
+ 
+ rank 4  total time in initialization is  20.568166
+ 
+ rank 0  total time in initialization is  20.570532
+ 
+ rank 0  total time simulation SimulationTo 71.163097
+[11:12:26][000000][PDI] *** info: Finalization
+ 
+ rank 1  total time simulation SimulationTo 71.164387
+[11:12:26][000001][PDI] *** info: Finalization
+ 
+ rank 2  total time simulation SimulationTo 71.196416
+[11:12:26][000002][PDI] *** info: Finalization
+ 
+ rank 3  total time simulation SimulationTo 71.196615
+[11:12:26][000003][PDI] *** info: Finalization
+ 
+ rank 6  total time simulation SimulationTo 71.197725
+[11:12:26][000006][PDI] *** info: Finalization
+ 
+ rank 7  total time simulation SimulationTo 71.197720
+[11:12:26][000007][PDI] *** info: Finalization
+ 
+ rank 4  total time simulation SimulationTo 71.198631
+[11:12:26][000004][PDI] *** info: Finalization
+ 
+ rank 5  total time simulation SimulationTo 71.198902
+[11:12:26][000005][PDI] *** info: Finalization
+[11:12:26][000001][MPI] *** info: Closing plugin
+[11:12:26][000000][MPI] *** info: Closing plugin
+[11:12:26][000002][MPI] *** info: Closing plugin
+[11:12:26][000007][MPI] *** info: Closing plugin
+[11:12:26][000006][MPI] *** info: Closing plugin
+[11:12:26][000003][MPI] *** info: Closing plugin
+[11:12:26][000005][MPI] *** info: Closing plugin
+[11:12:26][000004][MPI] *** info: Closing plugin

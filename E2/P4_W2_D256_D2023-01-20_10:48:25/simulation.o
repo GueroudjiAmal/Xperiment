@@ -1,0 +1,32 @@
+[11:06:09][000000][MPI] *** info: Plugin loaded successfully
+[11:06:09][000003][MPI] *** info: Plugin loaded successfully
+[11:06:09][000001][MPI] *** info: Plugin loaded successfully
+[11:06:09][000002][MPI] *** info: Plugin loaded successfully
+[11:06:10][000000][PDI] *** info: Initialization successful
+[11:06:10][000001][PDI] *** info: Initialization successful
+[11:06:10][000002][PDI] *** info: Initialization successful
+[11:06:10][000003][PDI] *** info: Initialization successful
+ 
+ rank 3  total time in initialization is  6.693461
+ 
+ rank 2  total time in initialization is  6.694992
+ 
+ rank 1  total time in initialization is  6.635101
+ 
+ rank 0  total time in initialization is  6.634992
+ 
+ rank 0  total time simulation SimulationTo 67.114606
+[11:07:24][000000][PDI] *** info: Finalization
+ 
+ rank 3  total time simulation SimulationTo 67.059630
+[11:07:24][000003][PDI] *** info: Finalization
+ 
+ rank 1  total time simulation SimulationTo 67.115860
+[11:07:24][000001][PDI] *** info: Finalization
+ 
+ rank 2  total time simulation SimulationTo 67.059552
+[11:07:24][000002][PDI] *** info: Finalization
+[11:07:24][000000][MPI] *** info: Closing plugin
+[11:07:24][000001][MPI] *** info: Closing plugin
+[11:07:24][000003][MPI] *** info: Closing plugin
+[11:07:24][000002][MPI] *** info: Closing plugin

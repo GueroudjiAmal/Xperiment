@@ -1,0 +1,58 @@
+pdi:
+  metadata:
+    pcoord_1d: int
+    pcoord: { type: array, subtype: int, size: 2 }
+    psize: { type: array, subtype: int, size: 2 }
+    dsize: { type: array, subtype: int, size: 2 }
+    MaxtimeSteps: int
+    timestep: int
+  data:
+    time_PDI: { type: array, subtype: double, size: $MaxtimeSteps }
+    time_S: { type: array, subtype: double, size: $MaxtimeSteps }
+    time_E: { type: array, subtype: double, size: $MaxtimeSteps }
+
+    local_t:
+      type: array
+      subtype: double
+      size: ['$dsize[0]', '$dsize[1]']
+      subsize: ['$dsize[0]', '$dsize[1]']
+      start: [0, 0]
+  plugins:
+#    trace: 
+    mpi: 
+    pycall:
+      on_event:
+        Finalization:
+          with:
+            generations_p: $MaxtimeSteps
+            pcoord_1d_p: $pcoord_1d
+            time_S_p: $time_S
+            time_E_p: $time_E
+            time_PDI_p: $time_PDI
+          exec: |
+            import numpy as np
+            import pandas as pd
+            from csv import writer  
+            fileSP = 'SimuPDI' + str(pcoord_1d_p.item()) + '.csv'
+
+            with open(fileSP, 'a') as f_object: 
+                      writer_object = writer(f_object) 
+                      writer_object.writerow(["generation" , "rank" , "simulation", "PDI", "bar"]) 
+                      writer_object.writerows(zip(np.arange(generations_p.item()),np.full((generations_p.item()), pcoord_1d_p.item() ), time_S_p, time_PDI_p, time_E_p)) 
+              
+
+    deisa:
+      scheduler_info: scheduler.json
+      init_on: init                                                                               # Event called after sharing all metdata 
+      time_step: $timestep                                                                        # Timestep variable
+      deisa_arrays:                                                                               # Those are Deisa virtual arrays equivalent to Dask arrays
+        global_t:                                                                                 # That's the name that i will send to Dask for this array
+          type: array
+          subtype: double
+          size: [$MaxtimeSteps, '($dsize[0]) * $psize[0]', '($dsize[1]) * $psize[1]']
+          subsize: [1, '$dsize[0]', '$dsize[1]']                                          # That's how it's chunked, the size of each chunk
+          start: [$timestep, '($dsize[0]) * $pcoord[0]', '($dsize[1]) * $pcoord[1]']      # That's where each chunk will start
+          +timedim: 0                                                                             # A tag for the time dim, only this configuration is supported for the moment 
+      map_in:                                                                                     # Which local data will be mapped to which deisa array
+        local_t: global_t
+      
