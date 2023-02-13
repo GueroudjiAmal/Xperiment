@@ -1,0 +1,38 @@
+launching Scheduler
+........Connect Master Client
+Scheduler booted, Client connected, launching workers
+Running Simulation
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 8263188
+Jobname   : deisa_v3
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 06/02/2023 14:39:05 , start = 06/02/2023 22:45:27 , end = 07/02/2023 00:45:31
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 4704 , cpus/task = 1 , ncpus = 4704 , nodes = 98
+   Nodes=irene[1088,1118,1121,1128-1131,1134-1137,1176,1185,1215,1222-1228,1231-1234,1236,1257-1258,1260,1274,1276-1278,1283,1287,1290,1460,1462,1464,1484,1828-1842,1844-1846,1848-1854,1859-1860,1864-1866,1876-1877,1892,1947,1995-1996,2014,2016,2019-2022,2025,2037,2042,2045,2055,2060,2068-2072,2074,2089,2092-2093,2096] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+8263188.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+8263188.batch       92 (irene1088   :   0)      14      3.00 (irene1088   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+8263188         deisa_v3                      -   4704     98        -     00:11:21   (100%)            -            -      -  -
+8263188.batch   batch                         1     48      1  Unknown     00:11:21   (100%)     00:00:00     00:00:00      0  RUNNING
+8263188.extern  extern                       98   4704     98  Unknown     00:11:21 (100.0%)     00:00:00     00:00:00      0  RUNNING
+8263188.0       dask-scheduler                1     48      1   BBlock     00:10:41  (94.1%)     00:00:34     00:00:05     .1  COMPLETED
+8263188.1       simulation                  128   3072     64   BBlock     00:03:01  (26.5%)   1-18:03:12     00:11:16   27.3  COMPLETED
+8263188.2       python3                       1     48      1   BBlock     00:10:18  (90.7%)     00:00:06     00:00:02      0  COMPLETED
+8263188.3       dask-worker                  64   1536     32   BBlock     00:10:18  (90.7%)     01:41:48     01:29:18    1.2  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########
