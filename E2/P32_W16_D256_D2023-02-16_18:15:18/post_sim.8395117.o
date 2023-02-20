@@ -1,0 +1,33 @@
+nprocdask 18 nworker 16 nnodes 10
+Running Simulation
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 8395117
+Jobname   : post_sim
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 16/02/2023 18:15:23 , start = 17/02/2023 00:54:41 , end = 17/02/2023 02:54:42
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 768 , cpus/task = 1 , ncpus = 768 , nodes = 16
+   Nodes=irene[2168,2170,2177,2180,2182-2183,2185,2193,2213,2225,2227,2241,2245,2259,2269,2316] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+8395117.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+8395117.batch       26 (irene2168   :   0)      14      1.00 (irene2168   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+8395117         post_sim                      -    768     16        -     00:01:23   (100%)            -            -      -  -
+8395117.batch   batch                         1     48      1  Unknown     00:01:23   (100%)     00:00:00     00:00:00      0  RUNNING
+8395117.extern  extern                       16    768     16  Unknown     00:01:23 (100.0%)     00:00:00     00:00:00      0  RUNNING
+8395117.0       simulation                   32    768     16   BBlock     00:00:37  (44.5%)     05:14:34     00:00:49   66.5  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########

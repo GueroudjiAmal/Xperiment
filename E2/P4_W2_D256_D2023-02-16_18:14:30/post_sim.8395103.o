@@ -1,0 +1,33 @@
+nprocdask 4 nworker 2 nnodes 3
+Running Simulation
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 8395103
+Jobname   : post_sim
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 16/02/2023 18:14:34 , start = 16/02/2023 18:25:39 , end = 16/02/2023 20:25:39
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 96 , cpus/task = 1 , ncpus = 96 , nodes = 2
+   Nodes=irene[1247,1251] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+8395103.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+8395103.batch       29 (irene1247   :   0)      14      0.00 (irene1247   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+8395103         post_sim                      -     96      2        -     00:01:14   (100%)            -            -      -  -
+8395103.batch   batch                         1     48      1  Unknown     00:01:14   (100%)     00:00:00     00:00:00      0  RUNNING
+8395103.extern  extern                        2     96      2  Unknown     00:01:14 (100.0%)     00:00:00     00:00:00      0  RUNNING
+8395103.0       simulation                    4     96      2   BBlock     00:00:35  (47.2%)     00:37:59     00:00:06   68.0  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########
