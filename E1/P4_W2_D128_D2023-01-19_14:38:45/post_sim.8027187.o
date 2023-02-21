@@ -1,0 +1,34 @@
+nprocdask 4 nworker 2 nnodes 3
+Running Simulation
+Submitted Batch Session 8028360
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 8027187
+Jobname   : post_sim
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 19/01/2023 14:54:15 , start = 19/01/2023 15:02:11 , end = 19/01/2023 17:02:15
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 96 , cpus/task = 1 , ncpus = 96 , nodes = 2
+   Nodes=irene[1499,1501] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+8027187.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+8027187.batch       79 (irene1499   :   0)      14      0.00 (irene1499   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+8027187         post_sim                      -     96      2        -     01:07:17   (100%)            -            -      -  -
+8027187.batch   batch                         1     48      1  Unknown     01:07:17   (100%)     00:00:00     00:00:00      0  RUNNING
+8027187.extern  extern                        2     96      2  Unknown     01:07:17 (100.0%)     00:00:00     00:00:00      0  RUNNING
+8027187.0       simulation                    4     96      2   BBlock     00:26:49  (39.8%)     00:20:10     00:00:11     .7  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########

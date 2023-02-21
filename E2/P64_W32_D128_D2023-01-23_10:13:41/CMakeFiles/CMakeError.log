@@ -1,0 +1,75 @@
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /ccc/scratch/cont003/mds/guerouda/DASK_IPCA_WCONF_SAME/E2/P64_W32_D128_D2023-01-23_10:13:41/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_48c90/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_48c90.dir/build.make CMakeFiles/cmTC_48c90.dir/build
+gmake[1]: Entering directory `/ccc/scratch/cont003/mds/guerouda/DASK_IPCA_WCONF_SAME/E2/P64_W32_D128_D2023-01-23_10:13:41/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_48c90.dir/build.make:64: *** target pattern contains no `%'.  Stop.
+gmake[1]: Leaving directory `/ccc/scratch/cont003/mds/guerouda/DASK_IPCA_WCONF_SAME/E2/P64_W32_D128_D2023-01-23_10:13:41/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_48c90/fast] Error 2
+
+
+
+Detecting CXX [-std=c++2a] compiler features failed to compile with the following output:
+Change Dir: /ccc/scratch/cont003/mds/guerouda/DASK_IPCA_WCONF_SAME/E2/P64_W32_D128_D2023-01-23_10:13:41/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_441f6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_441f6.dir/build.make CMakeFiles/cmTC_441f6.dir/build
+gmake[1]: Entering directory `/ccc/scratch/cont003/mds/guerouda/DASK_IPCA_WCONF_SAME/E2/P64_W32_D128_D2023-01-23_10:13:41/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_441f6.dir/build.make:64: *** target pattern contains no `%'.  Stop.
+gmake[1]: Leaving directory `/ccc/scratch/cont003/mds/guerouda/DASK_IPCA_WCONF_SAME/E2/P64_W32_D128_D2023-01-23_10:13:41/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_441f6/fast] Error 2
+
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /ccc/scratch/cont003/mds/guerouda/DASK_IPCA_WCONF_SAME/E2/P64_W32_D128_D2023-01-23_10:13:41/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1bbbf/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1bbbf.dir/build.make CMakeFiles/cmTC_1bbbf.dir/build
+gmake[1]: Entering directory `/ccc/scratch/cont003/mds/guerouda/DASK_IPCA_WCONF_SAME/E2/P64_W32_D128_D2023-01-23_10:13:41/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bbbf.dir/CheckSymbolExists.c.o
+/ccc/products/gcc-9.3.0/system/default/bin/gcc    -o CMakeFiles/cmTC_1bbbf.dir/CheckSymbolExists.c.o   -c /ccc/scratch/cont003/mds/guerouda/DASK_IPCA_WCONF_SAME/E2/P64_W32_D128_D2023-01-23_10:13:41/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1bbbf
+/ccc/products2/cmake-3.13.3/Atos_7__x86_64/system/default/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bbbf.dir/link.txt --verbose=1
+/ccc/products/gcc-9.3.0/system/default/bin/gcc      CMakeFiles/cmTC_1bbbf.dir/CheckSymbolExists.c.o  -o cmTC_1bbbf 
+CMakeFiles/cmTC_1bbbf.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_1bbbf] Error 1
+gmake[1]: Leaving directory `/ccc/scratch/cont003/mds/guerouda/DASK_IPCA_WCONF_SAME/E2/P64_W32_D128_D2023-01-23_10:13:41/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_1bbbf/fast] Error 2
+
+File /ccc/scratch/cont003/mds/guerouda/DASK_IPCA_WCONF_SAME/E2/P64_W32_D128_D2023-01-23_10:13:41/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /ccc/scratch/cont003/mds/guerouda/DASK_IPCA_WCONF_SAME/E2/P64_W32_D128_D2023-01-23_10:13:41/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_42562/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_42562.dir/build.make CMakeFiles/cmTC_42562.dir/build
+gmake[1]: Entering directory `/ccc/scratch/cont003/mds/guerouda/DASK_IPCA_WCONF_SAME/E2/P64_W32_D128_D2023-01-23_10:13:41/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42562.dir/CheckFunctionExists.c.o
+/ccc/products/gcc-9.3.0/system/default/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_42562.dir/CheckFunctionExists.c.o   -c /ccc/products2/cmake-3.13.3/Atos_7__x86_64/system/default/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_42562
+/ccc/products2/cmake-3.13.3/Atos_7__x86_64/system/default/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42562.dir/link.txt --verbose=1
+/ccc/products/gcc-9.3.0/system/default/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_42562.dir/CheckFunctionExists.c.o  -o cmTC_42562 -lpthreads 
+/ccc/work/cont003/gen2224/gen2224/spack/var/spack/environments/gysela-deisa-irene-skl-draft/.spack-env/view/bin/ld.gold: error: cannot find -lpthreads
+CMakeFiles/cmTC_42562.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_42562] Error 1
+gmake[1]: Leaving directory `/ccc/scratch/cont003/mds/guerouda/DASK_IPCA_WCONF_SAME/E2/P64_W32_D128_D2023-01-23_10:13:41/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_42562/fast] Error 2
+
+

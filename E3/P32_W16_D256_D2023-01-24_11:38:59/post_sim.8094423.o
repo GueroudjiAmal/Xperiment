@@ -1,0 +1,34 @@
+nprocdask 18 nworker 16 nnodes 10
+Running Simulation
+Submitted Batch Session 8105108
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 8094423
+Jobname   : post_sim
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 24/01/2023 11:39:03 , start = 24/01/2023 20:08:34 , end = 24/01/2023 22:08:34
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 768 , cpus/task = 1 , ncpus = 768 , nodes = 16
+   Nodes=irene[1031,1274,2020-2021,2090,2260-2262,2303,2307,2311,2316-2317,2320,2324,2327] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+8094423.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+8094423.batch       26 (irene1031   :   0)      14      1.00 (irene1031   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+8094423         post_sim                      -    768     16        -     00:03:16   (100%)            -            -      -  -
+8094423.batch   batch                         1     48      1  Unknown     00:03:16   (100%)     00:00:00     00:00:00      0  RUNNING
+8094423.extern  extern                       16    768     16  Unknown     00:03:16 (100.0%)     00:00:00     00:00:00      0  RUNNING
+8094423.0       simulation                   32    768     16   BBlock     00:02:23  (72.9%)     05:54:45     00:02:10   19.4  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########

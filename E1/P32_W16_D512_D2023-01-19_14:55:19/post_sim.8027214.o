@@ -1,0 +1,34 @@
+nprocdask 18 nworker 16 nnodes 10
+Running Simulation
+Submitted Batch Session 8036620
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 8027214
+Jobname   : post_sim
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 19/01/2023 14:55:24 , start = 20/01/2023 11:51:51 , end = 20/01/2023 13:51:52
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 768 , cpus/task = 1 , ncpus = 768 , nodes = 16
+   Nodes=irene[1075,1092,1094,1140-1143,1145-1149,1155-1156,1164-1165] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+8027214.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+8027214.batch       26 (irene1075   :   0)      14      1.00 (irene1075   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+8027214         post_sim                      -    768     16        -     00:05:14   (100%)            -            -      -  -
+8027214.batch   batch                         1     48      1  Unknown     00:05:14   (100%)     00:00:00     00:00:00      0  RUNNING
+8027214.extern  extern                       16    768     16  Unknown     00:05:14 (100.0%)     00:00:00     00:00:00      0  RUNNING
+8027214.0       simulation                   32    768     16   BBlock     00:04:25  (84.3%)     11:24:07     00:04:15   20.2  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########
