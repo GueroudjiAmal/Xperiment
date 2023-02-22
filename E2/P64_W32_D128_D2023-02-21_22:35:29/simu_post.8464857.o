@@ -1,0 +1,34 @@
+nprocdask 34 nworker 32 nnodes 18
+Running Simulation
+Submitted Batch Session 8467150
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 8464857
+Jobname   : simu_post
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 21/02/2023 22:35:33 , start = 22/02/2023 04:55:26 , end = 22/02/2023 06:55:27
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 1536 , cpus/task = 1 , ncpus = 1536 , nodes = 32
+   Nodes=irene[1583,1585,1593,1605,1608,1614,1628,1630,1634,1648,1713,1724,1758,1820,2381,2455,2528,2530,2533,2541,2588-2590,2595,2604,2611,2629,2635,2639,2649,2653,2655] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+8464857.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+8464857.batch       26 (irene1583   :   0)      14      0.00 (irene1583   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+8464857         simu_post                     -   1536     32        -     00:04:42   (100%)            -            -      -  -
+8464857.batch   batch                         1     48      1  Unknown     00:04:42   (100%)     00:00:00     00:00:00      0  RUNNING
+8464857.extern  extern                       32   1536     32  Unknown     00:04:42 (100.0%)     00:00:00     00:00:00      0  RUNNING
+8464857.0       simulation                   64   1536     32   BBlock     00:03:50  (81.5%)     08:35:17     00:03:44    8.8  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########
