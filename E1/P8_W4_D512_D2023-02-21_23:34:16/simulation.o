@@ -1,0 +1,80 @@
+[06:36:01][Decl'HDF5] *** info: Plugin loaded successfully
+[06:36:01][Decl'HDF5] *** info: Plugin loaded successfully
+[06:36:01][Decl'HDF5] *** info: Plugin loaded successfully
+[06:36:01][Decl'HDF5] *** info: Plugin loaded successfully
+[06:36:01][Decl'HDF5] *** info: Plugin loaded successfully
+[06:36:01][000007][MPI] *** info: Plugin loaded successfully
+[06:36:01][000006][MPI] *** info: Plugin loaded successfully
+[06:36:01][000000][MPI] *** info: Plugin loaded successfully
+[06:36:01][Decl'HDF5] *** info: Plugin loaded successfully
+[06:36:01][000001][MPI] *** info: Plugin loaded successfully
+[06:36:01][Decl'HDF5] *** info: Plugin loaded successfully
+[06:36:01][000002][MPI] *** info: Plugin loaded successfully
+[06:36:01][000003][MPI] *** info: Plugin loaded successfully
+[06:36:01][Decl'HDF5] *** info: Plugin loaded successfully
+[06:36:01][000005][MPI] *** info: Plugin loaded successfully
+[06:36:01][000004][MPI] *** info: Plugin loaded successfully
+[06:36:01][000000][PDI] *** info: Initialization successful
+[06:36:01][000001][PDI] *** info: Initialization successful
+[06:36:01][000006][PDI] *** info: Initialization successful
+[06:36:01][000007][PDI] *** info: Initialization successful
+[06:36:01][000002][PDI] *** info: Initialization successful
+[06:36:01][000003][PDI] *** info: Initialization successful
+[06:36:01][000004][PDI] *** info: Initialization successful
+[06:36:01][000005][PDI] *** info: Initialization successful
+ 
+ rank 0  total time in initialization is  0.000088
+ 
+ rank 0  total time simulation SimulationTo 174.651512
+[06:38:56][000000][PDI] *** info: Finalization
+ 
+ rank 1  total time in initialization is  0.000085
+ 
+ rank 1  total time simulation SimulationTo 174.634124
+[06:38:56][000001][PDI] *** info: Finalization
+[06:38:56][000000][MPI] *** info: Closing plugin
+[06:38:56][000001][MPI] *** info: Closing plugin
+[06:38:56][000000][Decl'HDF5] *** info: Closing plugin
+[06:38:56][000001][Decl'HDF5] *** info: Closing plugin
+ 
+ rank 2  total time in initialization is  0.000085
+ 
+ rank 2  total time simulation SimulationTo 174.650101
+[06:38:56][000002][PDI] *** info: Finalization
+ 
+ rank 3  total time in initialization is  0.000094
+ 
+ rank 3  total time simulation SimulationTo 174.659493
+[06:38:56][000003][PDI] *** info: Finalization
+[06:38:56][000002][MPI] *** info: Closing plugin
+[06:38:56][000003][MPI] *** info: Closing plugin
+[06:38:56][000003][Decl'HDF5] *** info: Closing plugin
+[06:38:56][000002][Decl'HDF5] *** info: Closing plugin
+ 
+ rank 4  total time in initialization is  0.000092
+ 
+ rank 4  total time simulation SimulationTo 174.687006
+[06:38:56][000004][PDI] *** info: Finalization
+ 
+ rank 5  total time in initialization is  0.000092
+ 
+ rank 5  total time simulation SimulationTo 174.687720
+[06:38:56][000005][PDI] *** info: Finalization
+ 
+ rank 6  total time in initialization is  0.000084
+ 
+ rank 6  total time simulation SimulationTo 174.690404
+[06:38:56][000006][PDI] *** info: Finalization
+ 
+ rank 7  total time in initialization is  0.000082
+ 
+ rank 7  total time simulation SimulationTo 174.688109
+[06:38:56][000007][PDI] *** info: Finalization
+[06:38:56][000004][MPI] *** info: Closing plugin
+[06:38:56][000005][MPI] *** info: Closing plugin
+[06:38:56][000005][Decl'HDF5] *** info: Closing plugin
+[06:38:56][000004][Decl'HDF5] *** info: Closing plugin
+[06:38:56][000007][MPI] *** info: Closing plugin
+[06:38:56][000006][MPI] *** info: Closing plugin
+[06:38:56][000007][Decl'HDF5] *** info: Closing plugin
+[06:38:56][000006][Decl'HDF5] *** info: Closing plugin

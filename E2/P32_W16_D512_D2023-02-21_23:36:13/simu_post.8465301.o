@@ -1,0 +1,34 @@
+nprocdask 18 nworker 16 nnodes 10
+Running Simulation
+Submitted Batch Session 8469323
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 8465301
+Jobname   : simu_post
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 21/02/2023 23:36:19 , start = 22/02/2023 09:39:34 , end = 22/02/2023 11:39:35
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 768 , cpus/task = 1 , ncpus = 768 , nodes = 16
+   Nodes=irene[1554,1578,1581,1587,1594,1598,1601,1616,1632,1635-1636,1643,1647,1681,1689,1694] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+8465301.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+8465301.batch       26 (irene1554   :   0)      14      1.00 (irene1554   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+8465301         simu_post                     -    768     16        -     00:01:04   (100%)            -            -      -  -
+8465301.batch   batch                         1     48      1  Unknown     00:01:04   (100%)     00:00:00     00:00:00      0  RUNNING
+8465301.extern  extern                       16    768     16  Unknown     00:01:04 (100.0%)     00:00:00     00:00:00      0  RUNNING
+8465301.0       simulation                   32    768     16   BBlock     00:00:11  (17.1%)     01:01:46     00:00:58   44.5  CANCELLED by 0
+########## ########## ########## ########## ########## ########## ########## ##########

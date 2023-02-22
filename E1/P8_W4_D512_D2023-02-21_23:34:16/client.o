@@ -1,0 +1,6 @@
+0: client connected
+0: chunks 8192 8192
+0: <HDF5 dataset "local_t": shape (10, 32776, 16388), type "<f8">
+0: pca,  InSituIncrementalPCA(copy=False, n_components=2, svd_solver='randomized')
+0: explained_variance ,singular_values [4.07770761e+11 1.39030901e+10]  and  [3.65582462e+08 6.75045398e+07]
+0: Done in  190.74091863632202  secondes

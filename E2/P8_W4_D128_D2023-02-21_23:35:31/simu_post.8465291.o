@@ -1,0 +1,34 @@
+nprocdask 6 nworker 4 nnodes 4
+Running Simulation
+Submitted Batch Session 8468265
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 8465291
+Jobname   : simu_post
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 21/02/2023 23:35:36 , start = 22/02/2023 07:16:46 , end = 22/02/2023 09:16:47
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 192 , cpus/task = 1 , ncpus = 192 , nodes = 4
+   Nodes=irene[2223,2225,2227,2254] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+8465291.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+8465291.batch       26 (irene2223   :   0)      14      1.00 (irene2223   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+8465291         simu_post                     -    192      4        -     00:01:23   (100%)            -            -      -  -
+8465291.batch   batch                         1     48      1  Unknown     00:01:23   (100%)     00:00:00     00:00:00      0  RUNNING
+8465291.extern  extern                        4    192      4  Unknown     00:01:23 (100.0%)     00:00:00     00:00:00      0  RUNNING
+8465291.0       simulation                    8    192      4   BBlock     00:00:45  (54.2%)     00:40:55     00:00:28   28.7  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########
