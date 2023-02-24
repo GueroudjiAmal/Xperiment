@@ -1,0 +1,38 @@
+launching Scheduler
+.........Connect Master Client
+Scheduler booted, Client connected, launching workers
+Running Simulation
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 8474960
+Jobname   : dask-cluster
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 22/02/2023 17:50:51 , start = 23/02/2023 03:05:09 , end = 23/02/2023 05:05:09
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 672 , cpus/task = 1 , ncpus = 672 , nodes = 14
+   Nodes=irene[1282,1285,1295,1378,1456,1463,1471,1473,1495,1500,1507,1510-1511,1516] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+8474960.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+8474960.batch       93 (irene1282   :   0)      14      3.00 (irene1282   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+8474960         dask-cluster                  -    672     14        -     00:07:53   (100%)            -            -      -  -
+8474960.batch   batch                         1     48      1  Unknown     00:07:53   (100%)     00:00:00     00:00:00      0  RUNNING
+8474960.extern  extern                       14    672     14  Unknown     00:07:53 (100.0%)     00:00:00     00:00:00      0  RUNNING
+8474960.0       dask-scheduler                1     48      1   BBlock     00:05:56  (75.2%)     00:00:10     00:00:02      0  COMPLETED
+8474960.1       dask-worker                   8    192      4   BBlock     00:05:31  (69.9%)     00:02:54     00:04:28     .6  COMPLETED
+8474960.2       python3                       1     48      1   BBlock     00:05:30  (69.7%)     00:00:01     00:00:01      0  COMPLETED
+8474960.3       simulation                   16    384      8   BBlock     00:06:54  (87.5%)     14:18:18     00:02:59   32.5  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########
