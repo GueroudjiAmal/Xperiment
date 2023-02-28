@@ -1,0 +1,34 @@
+nprocdask 10 nworker 8 nnodes 6
+Running Simulation
+error: QOSMaxSubmitJobPerUserLimit sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 8514545
+Jobname   : simu_post
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 27/02/2023 11:41:37 , start = 27/02/2023 14:03:44 , end = 27/02/2023 16:03:45
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 384 , cpus/task = 1 , ncpus = 384 , nodes = 8
+   Nodes=irene[1876,1879,1881,1883,1888,1891,1893,1900] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+8514545.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+8514545.batch       27 (irene1876   :   0)      14      1.00 (irene1876   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+8514545         simu_post                     -    384      8        -     00:03:29   (100%)            -            -      -  -
+8514545.batch   batch                         1     48      1  Unknown     00:03:29   (100%)     00:00:00     00:00:00      0  RUNNING
+8514545.extern  extern                        8    384      8  Unknown     00:03:29 (100.0%)     00:00:00     00:00:00      0  RUNNING
+8514545.0       simulation                   16    384      8   BBlock     00:02:39  (76.0%)     05:21:57     00:02:06   31.8  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########
