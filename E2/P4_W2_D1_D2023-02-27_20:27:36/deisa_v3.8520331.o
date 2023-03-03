@@ -1,0 +1,38 @@
+launching Scheduler
+...Connect Master Client
+Scheduler booted, Client connected, launching workers
+Running Simulation
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 8520331
+Jobname   : deisa_v3
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 27/02/2023 20:27:44 , start = 27/02/2023 23:15:15 , end = 28/02/2023 01:15:18
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 240 , cpus/task = 1 , ncpus = 240 , nodes = 5
+   Nodes=irene[1852,1917,1994,2012,2038] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+8520331.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+8520331.batch       92 (irene1852   :   0)      14      2.00 (irene1852   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+8520331         deisa_v3                      -    240      5        -     00:02:56   (100%)            -            -      -  -
+8520331.batch   batch                         1     48      1  Unknown     00:02:56   (100%)     00:00:00     00:00:00      0  RUNNING
+8520331.extern  extern                        5    240      5  Unknown     00:02:56 (100.0%)     00:00:00     00:00:00      0  RUNNING
+8520331.0       dask-scheduler                1     48      1   BBlock     00:02:23  (81.2%)     00:00:04     00:00:01      0  COMPLETED
+8520331.1       python3                       1     48      1   BBlock     00:02:14  (76.1%)     00:00:02     00:00:01      0  COMPLETED
+8520331.2       dask-worker                   2     48      1   BBlock     00:02:14  (76.1%)     00:00:30     00:00:46    1.1  COMPLETED
+8520331.3       simulation                    4     96      2   BBlock     00:02:17  (77.8%)     02:59:32     00:00:33   82.1  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########
