@@ -1,0 +1,256 @@
+[14:30:49][000014][MPI] *** info: Plugin loaded successfully
+[14:30:49][000017][MPI] *** info: Plugin loaded successfully
+[14:30:49][000008][MPI] *** info: Plugin loaded successfully
+[14:30:49][000030][MPI] *** info: Plugin loaded successfully
+[14:30:49][000010][MPI] *** info: Plugin loaded successfully
+[14:30:49][000001][MPI] *** info: Plugin loaded successfully
+[14:30:49][000024][MPI] *** info: Plugin loaded successfully
+[14:30:49][000006][MPI] *** info: Plugin loaded successfully
+[14:30:49][000002][MPI] *** info: Plugin loaded successfully
+[14:30:49][000018][MPI] *** info: Plugin loaded successfully
+[14:30:49][000012][MPI] *** info: Plugin loaded successfully
+[14:30:49][000026][MPI] *** info: Plugin loaded successfully
+[14:30:49][000020][MPI] *** info: Plugin loaded successfully
+[14:30:49][000022][MPI] *** info: Plugin loaded successfully
+[14:30:49][000028][MPI] *** info: Plugin loaded successfully
+[14:30:49][000004][MPI] *** info: Plugin loaded successfully
+[14:30:49][000015][MPI] *** info: Plugin loaded successfully
+[14:30:49][000016][MPI] *** info: Plugin loaded successfully
+[14:30:49][000025][MPI] *** info: Plugin loaded successfully
+[14:30:49][000009][MPI] *** info: Plugin loaded successfully
+[14:30:49][000000][MPI] *** info: Plugin loaded successfully
+[14:30:49][000031][MPI] *** info: Plugin loaded successfully
+[14:30:49][000011][MPI] *** info: Plugin loaded successfully
+[14:30:49][000007][MPI] *** info: Plugin loaded successfully
+[14:30:49][000003][MPI] *** info: Plugin loaded successfully
+[14:30:49][000019][MPI] *** info: Plugin loaded successfully
+[14:30:49][000013][MPI] *** info: Plugin loaded successfully
+[14:30:49][000027][MPI] *** info: Plugin loaded successfully
+[14:30:49][000021][MPI] *** info: Plugin loaded successfully
+[14:30:49][000029][MPI] *** info: Plugin loaded successfully
+[14:30:49][000023][MPI] *** info: Plugin loaded successfully
+[14:30:49][000005][MPI] *** info: Plugin loaded successfully
+[14:30:49][000010][PDI] *** info: Initialization successful
+[14:30:49][000008][PDI] *** info: Initialization successful
+[14:30:49][000011][PDI] *** info: Initialization successful
+[14:30:49][000009][PDI] *** info: Initialization successful
+[14:30:49][000016][PDI] *** info: Initialization successful
+[14:30:49][000017][PDI] *** info: Initialization successful
+[14:30:49][000002][PDI] *** info: Initialization successful
+[14:30:49][000003][PDI] *** info: Initialization successful
+[14:30:49][000004][PDI] *** info: Initialization successful
+[14:30:49][000005][PDI] *** info: Initialization successful
+[14:30:49][000018][PDI] *** info: Initialization successful
+[14:30:49][000024][PDI] *** info: Initialization successful
+[14:30:49][000019][PDI] *** info: Initialization successful
+[14:30:49][000026][PDI] *** info: Initialization successful
+[14:30:49][000025][PDI] *** info: Initialization successful
+[14:30:49][000028][PDI] *** info: Initialization successful
+[14:30:49][000029][PDI] *** info: Initialization successful
+[14:30:49][000020][PDI] *** info: Initialization successful
+[14:30:49][000027][PDI] *** info: Initialization successful
+[14:30:49][000006][PDI] *** info: Initialization successful
+[14:30:49][000021][PDI] *** info: Initialization successful
+[14:30:49][000007][PDI] *** info: Initialization successful
+[14:30:49][000012][PDI] *** info: Initialization successful
+[14:30:49][000030][PDI] *** info: Initialization successful
+[14:30:49][000031][PDI] *** info: Initialization successful
+[14:30:49][000013][PDI] *** info: Initialization successful
+[14:30:49][000023][PDI] *** info: Initialization successful
+[14:30:49][000000][PDI] *** info: Initialization successful
+[14:30:49][000022][PDI] *** info: Initialization successful
+[14:30:49][000015][PDI] *** info: Initialization successful
+[14:30:49][000001][PDI] *** info: Initialization successful
+[14:30:49][000014][PDI] *** info: Initialization successful
+ 
+ rank 19  total time in initialization is  4.696791
+ 
+ rank 15  total time in initialization is  4.775998
+ 
+ rank 11  total time in initialization is  4.685604
+ 
+ rank 18  total time in initialization is  4.718113
+ 
+ rank 10  total time in initialization is  4.691241
+ 
+ rank 9  total time in initialization is  4.770940
+ 
+ rank 16  total time in initialization is  4.696374
+ 
+ rank 13  total time in initialization is  4.767570
+ 
+ rank 5  total time in initialization is  4.710768
+ 
+ rank 4  total time in initialization is  4.694607
+ 
+ rank 12  total time in initialization is  4.795799
+ 
+ rank 27  total time in initialization is  4.687651
+ 
+ rank 31  total time in initialization is  4.678079
+ 
+ rank 26  total time in initialization is  4.691658
+ 
+ rank 30  total time in initialization is  4.686278
+ 
+ rank 2  total time in initialization is  4.779545
+ 
+ rank 3  total time in initialization is  4.760330
+ 
+ rank 6  total time in initialization is  4.788299
+ 
+ rank 23  total time in initialization is  4.735045
+ 
+ rank 22  total time in initialization is  4.752239
+ 
+ rank 7  total time in initialization is  4.764624
+ 
+ rank 14  total time in initialization is  4.769459
+ 
+ rank 25  total time in initialization is  4.790260
+ 
+ rank 17  total time in initialization is  4.677283
+ 
+ rank 0  total time in initialization is  4.780156
+ 
+ rank 20  total time in initialization is  4.699589
+ 
+ rank 1  total time in initialization is  4.778687
+ 
+ rank 21  total time in initialization is  4.690145
+ 
+ rank 8  total time in initialization is  4.789375
+ 
+ rank 28  total time in initialization is  4.690176
+ 
+ rank 24  total time in initialization is  4.776964
+ 
+ rank 29  total time in initialization is  4.674538
+ 
+ rank 20  total time simulation SimulationTo 204.503432
+[14:34:19][000020][PDI] *** info: Finalization
+ 
+ rank 21  total time simulation SimulationTo 204.503417
+[14:34:19][000021][PDI] *** info: Finalization
+ 
+ rank 4  total time simulation SimulationTo 204.504690
+[14:34:19][000004][PDI] *** info: Finalization
+ 
+ rank 5  total time simulation SimulationTo 204.504843
+[14:34:19][000005][PDI] *** info: Finalization
+ 
+ rank 13  total time simulation SimulationTo 204.424848
+[14:34:19][000013][PDI] *** info: Finalization
+ 
+ rank 10  total time simulation SimulationTo 204.502788
+[14:34:19][000010][PDI] *** info: Finalization
+ 
+ rank 11  total time simulation SimulationTo 204.502970
+[14:34:19][000011][PDI] *** info: Finalization
+ 
+ rank 12  total time simulation SimulationTo 204.425103
+[14:34:19][000012][PDI] *** info: Finalization
+ 
+ rank 15  total time simulation SimulationTo 204.428357
+[14:34:19][000015][PDI] *** info: Finalization
+ 
+ rank 14  total time simulation SimulationTo 204.429713
+[14:34:19][000014][PDI] *** info: Finalization
+ 
+ rank 27  total time simulation SimulationTo 204.509360
+[14:34:19][000027][PDI] *** info: Finalization
+ 
+ rank 26  total time simulation SimulationTo 204.509583
+[14:34:19][000026][PDI] *** info: Finalization
+ 
+ rank 0  total time simulation SimulationTo 204.430572
+[14:34:19][000000][PDI] *** info: Finalization
+ 
+ rank 1  total time simulation SimulationTo 204.433048
+[14:34:19][000001][PDI] *** info: Finalization
+ 
+ rank 8  total time simulation SimulationTo 204.432616
+[14:34:19][000008][PDI] *** info: Finalization
+ 
+ rank 9  total time simulation SimulationTo 204.432989
+[14:34:19][000009][PDI] *** info: Finalization
+ 
+ rank 18  total time simulation SimulationTo 204.516182
+[14:34:19][000018][PDI] *** info: Finalization
+ 
+ rank 19  total time simulation SimulationTo 204.517146
+[14:34:19][000019][PDI] *** info: Finalization
+ 
+ rank 24  total time simulation SimulationTo 204.436083
+[14:34:19][000024][PDI] *** info: Finalization
+ 
+ rank 16  total time simulation SimulationTo 204.521712
+[14:34:19][000016][PDI] *** info: Finalization
+ 
+ rank 25  total time simulation SimulationTo 204.436575
+[14:34:19][000025][PDI] *** info: Finalization
+ 
+ rank 17  total time simulation SimulationTo 204.522009
+[14:34:19][000017][PDI] *** info: Finalization
+ 
+ rank 22  total time simulation SimulationTo 204.479492
+[14:34:19][000022][PDI] *** info: Finalization
+ 
+ rank 2  total time simulation SimulationTo 204.434951
+[14:34:19][000002][PDI] *** info: Finalization
+ 
+ rank 7  total time simulation SimulationTo 204.437239
+[14:34:19][000007][PDI] *** info: Finalization
+ 
+ rank 23  total time simulation SimulationTo 204.480346
+[14:34:19][000023][PDI] *** info: Finalization
+ 
+ rank 6  total time simulation SimulationTo 204.437433
+[14:34:19][000006][PDI] *** info: Finalization
+ 
+ rank 28  total time simulation SimulationTo 204.522844
+[14:34:19][000028][PDI] *** info: Finalization
+ 
+ rank 3  total time simulation SimulationTo 204.435463
+[14:34:19][000003][PDI] *** info: Finalization
+ 
+ rank 31  total time simulation SimulationTo 204.553539
+[14:34:19][000031][PDI] *** info: Finalization
+ 
+ rank 29  total time simulation SimulationTo 204.523263
+[14:34:19][000029][PDI] *** info: Finalization
+ 
+ rank 30  total time simulation SimulationTo 204.534242
+[14:34:19][000030][PDI] *** info: Finalization
+[14:34:19][000004][MPI] *** info: Closing plugin
+[14:34:19][000005][MPI] *** info: Closing plugin
+[14:34:19][000020][MPI] *** info: Closing plugin
+[14:34:19][000021][MPI] *** info: Closing plugin
+[14:34:19][000012][MPI] *** info: Closing plugin
+[14:34:19][000013][MPI] *** info: Closing plugin
+[14:34:19][000001][MPI] *** info: Closing plugin
+[14:34:19][000010][MPI] *** info: Closing plugin
+[14:34:19][000011][MPI] *** info: Closing plugin
+[14:34:19][000000][MPI] *** info: Closing plugin
+[14:34:19][000014][MPI] *** info: Closing plugin
+[14:34:19][000015][MPI] *** info: Closing plugin
+[14:34:19][000027][MPI] *** info: Closing plugin
+[14:34:19][000026][MPI] *** info: Closing plugin
+[14:34:19][000008][MPI] *** info: Closing plugin
+[14:34:19][000009][MPI] *** info: Closing plugin
+[14:34:19][000022][MPI] *** info: Closing plugin
+[14:34:19][000018][MPI] *** info: Closing plugin
+[14:34:19][000019][MPI] *** info: Closing plugin
+[14:34:19][000017][MPI] *** info: Closing plugin
+[14:34:19][000016][MPI] *** info: Closing plugin
+[14:34:19][000023][MPI] *** info: Closing plugin
+[14:34:19][000006][MPI] *** info: Closing plugin
+[14:34:19][000007][MPI] *** info: Closing plugin
+[14:34:19][000024][MPI] *** info: Closing plugin
+[14:34:19][000025][MPI] *** info: Closing plugin
+[14:34:19][000029][MPI] *** info: Closing plugin
+[14:34:19][000028][MPI] *** info: Closing plugin
+[14:34:19][000002][MPI] *** info: Closing plugin
+[14:34:19][000003][MPI] *** info: Closing plugin
+[14:34:19][000030][MPI] *** info: Closing plugin
+[14:34:19][000031][MPI] *** info: Closing plugin
