@@ -1,0 +1,38 @@
+launching Scheduler
+...Connect Master Client
+Scheduler booted, Client connected, launching workers
+Running Simulation
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 8557541
+Jobname   : deisa_v3
+User      : guerouda
+Account   : gen2224@skylake
+Limits    : time = 2:00:00 , memory/task = 3685 Mo
+Date      : submit = 01/03/2023 16:06:33 , start = 02/03/2023 07:33:31 , end = 02/03/2023 09:33:32
+Execution : partition = skylake , QoS = normal , Comment = (null)
+Resources : ntasks = 2400 , cpus/task = 1 , ncpus = 2400 , nodes = 50
+   Nodes=irene[1552-1553,1555,1561,1565,1576-1577,1579-1582,1588,1591,1596,1607,1614-1615,1617-1624,1626,1660,1668-1669,1678-1680,1682-1683,1686,1693,1701,1703,1716,1740,1786,1796,1800,1812,2391,2405,2407,2412,2415,2419] CPU_IDs=0-47 Mem=176880 GRES=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+8557541.extern       0 (            :   0)       0      0.00 (            :   0)    0.00
+8557541.batch       92 (irene1552   :   0)      14      3.00 (irene1552   :   0)    0.00
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+8557541         deisa_v3                      -   2400     50        -     00:05:52   (100%)            -            -      -  -
+8557541.batch   batch                         1     48      1  Unknown     00:05:52   (100%)     00:00:00     00:00:00      0  RUNNING
+8557541.extern  extern                       50   2400     50  Unknown     00:05:52 (100.0%)     00:00:00     00:00:00      0  RUNNING
+8557541.0       dask-scheduler                1     48      1   BBlock     00:05:24  (92.0%)     00:00:17     00:00:03     .1  COMPLETED
+8557541.1       python3                       1     48      1   BBlock     00:05:15  (89.4%)     00:00:04     00:00:02      0  COMPLETED
+8557541.2       simulation                   64   1536     32   BBlock     00:01:21  (23.0%)     20:40:22     00:05:30   60.0  COMPLETED
+8557541.3       dask-worker                  32    768     16   BBlock     00:05:14  (89.2%)     00:41:19     00:39:09    2.0  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########
